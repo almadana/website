@@ -1,0 +1,394 @@
+/*-- scss:defaults --*/
+
+// Paleta "Atlántico": tinta, niebla y teal
+$ink:        #15202b;
+$ink-soft:   #3a4754;
+$mist:       #e8eef2;
+$foam:       #f4f7f9;
+$sand:       #eef1ec;
+$teal:       #0e6e6e;
+$teal-deep:  #0a5555;
+$line:       rgba(21, 32, 43, 0.12);
+
+$primary:       $teal;
+$link-color:    $teal-deep;
+$body-bg:       $foam;
+$body-color:    $ink;
+$navbar-bg:     transparent;
+$navbar-fg:     $ink;
+$footer-bg:     transparent;
+$footer-fg:     $ink-soft;
+
+$font-family-sans-serif: "Source Sans 3", "Segoe UI", sans-serif;
+$font-family-serif: "Fraunces", Georgia, serif;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 600;
+$headings-color: $ink;
+$font-size-base: 1.08rem;
+$line-height-base: 1.65;
+
+/*-- scss:rules --*/
+
+:root {
+  --ink: #{$ink};
+  --ink-soft: #{$ink-soft};
+  --teal: #{$teal};
+  --teal-deep: #{$teal-deep};
+  --foam: #{$foam};
+  --mist: #{$mist};
+  --sand: #{$sand};
+  --line: #{$line};
+  --radius: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(1200px 500px at 12% -10%, rgba(14, 110, 110, 0.08), transparent 55%),
+    radial-gradient(900px 420px at 95% 8%, rgba(58, 71, 84, 0.07), transparent 50%),
+    linear-gradient(180deg, #f7f9fb 0%, $foam 42%, #f1f4f1 100%);
+  background-attachment: fixed;
+  color: var(--ink);
+}
+
+// Navbar sobria, sin peso visual
+.navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(244, 247, 249, 0.72) !important;
+  border-bottom: 1px solid var(--line);
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+
+  .navbar-brand {
+    font-family: $font-family-serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    font-size: 1.2rem;
+    color: var(--ink) !important;
+  }
+
+  .nav-link {
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: var(--ink-soft) !important;
+    transition: color 0.2s ease;
+
+    &:hover,
+    &:focus,
+    &.active {
+      color: var(--teal-deep) !important;
+    }
+  }
+}
+
+// Tipografía
+h1, h2, h3, h4 {
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.quarto-title-block .quarto-title h1.title {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  margin-bottom: 0.35em;
+}
+
+a {
+  text-underline-offset: 0.18em;
+  transition: color 0.2s ease;
+}
+
+// Hero de inicio
+.hero {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  max-width: 54rem;
+  padding: 3.5rem 0 2.25rem;
+  animation: rise 0.7s ease both;
+
+  @media (min-width: 768px) {
+    grid-template-columns: minmax(0, 1.35fr) minmax(11rem, 15rem);
+    gap: 2.75rem;
+  }
+}
+
+.hero__copy {
+  min-width: 0;
+}
+
+// En inicio el nombre vive en el hero; la navbar no lo repite
+body.page-home .navbar-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.hero__name {
+  font-family: $font-family-serif;
+  font-size: clamp(2.6rem, 6vw, 4rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+  margin: 0 0 1rem;
+  color: var(--ink);
+}
+
+.hero__lead {
+  font-size: 1.2rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0 0 1.75rem;
+  max-width: 34rem;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem 1rem;
+  align-items: center;
+}
+
+.hero__photo {
+  justify-self: start;
+  width: min(13.5rem, 52vw);
+  margin: 0;
+  animation: rise 0.85s ease 0.08s both;
+
+  @media (min-width: 768px) {
+    justify-self: end;
+    width: 100%;
+  }
+
+  // Quarto envuelve la imagen en figure/p
+  figure,
+  p,
+  .quarto-figure {
+    margin: 0;
+  }
+
+  figcaption {
+    display: none;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center top;
+    border: 1px solid var(--line);
+    background: var(--mist);
+  }
+}
+
+.btn-main,
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.6rem;
+  padding: 0.55rem 1.2rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-main {
+  background: var(--teal);
+  color: #fff !important;
+  border-color: var(--teal);
+
+  &:hover {
+    background: var(--teal-deep);
+    border-color: var(--teal-deep);
+    color: #fff !important;
+    transform: translateY(-1px);
+  }
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--ink) !important;
+  border-color: var(--line);
+
+  &:hover {
+    border-color: var(--teal);
+    color: var(--teal-deep) !important;
+  }
+}
+
+// Secciones de la home
+.home-section {
+  margin-top: 2.75rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+  animation: rise 0.8s ease 0.12s both;
+}
+
+.home-section h2 {
+  font-size: 1.55rem;
+  margin-bottom: 0.65rem;
+}
+
+.home-section > p {
+  color: var(--ink-soft);
+  max-width: 36rem;
+}
+
+// Listings del blog más limpios
+.quarto-listing {
+  .listing-title {
+    font-family: $font-family-serif;
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .listing-description {
+    color: var(--ink-soft);
+  }
+
+  .listing-date {
+    color: var(--teal);
+    font-weight: 500;
+    font-size: 0.85rem;
+  }
+
+  .listing-categories .listing-category {
+    border: 1px solid var(--line);
+    background: rgba(255, 255, 255, 0.55);
+    color: var(--ink-soft);
+    border-radius: 0;
+  }
+}
+
+#quarto-content {
+  padding-bottom: 3rem;
+}
+
+.page-footer {
+  border-top: 1px solid var(--line);
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+// About / cuerpo de páginas
+main.content {
+  animation: rise 0.55s ease both;
+}
+
+.about-grid {
+  display: grid;
+  gap: 1.75rem;
+  margin-top: 0.5rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1.25fr 0.75fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+}
+
+.about-main p:first-child {
+  font-size: 1.15rem;
+}
+
+.about-aside {
+  padding: 1.25rem 0 0;
+  border-top: 1px solid var(--line);
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+
+  @media (min-width: 768px) {
+    border-top: none;
+    border-left: 1px solid var(--line);
+    padding: 0.25rem 0 0 1.75rem;
+  }
+
+  strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  ul {
+    padding-left: 1.1rem;
+    margin-bottom: 0;
+  }
+
+  li + li {
+    margin-top: 0.35rem;
+  }
+}
+
+// Publicaciones (ORCID)
+.pub-sync-note {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  margin: 0 0 1.5rem;
+}
+
+.pub-list {
+  h2 {
+    margin-top: 2rem;
+    padding-top: 0.35rem;
+    border-top: 1px solid var(--line);
+    font-size: 1.35rem;
+
+    &:first-of-type {
+      border-top: none;
+      padding-top: 0;
+    }
+  }
+
+  ul {
+    padding-left: 1.15rem;
+  }
+
+  li + li {
+    margin-top: 0.85rem;
+  }
+
+  li code {
+    font-size: 0.78em;
+    color: var(--teal-deep);
+    background: rgba(14, 110, 110, 0.08);
+    border: 1px solid var(--line);
+    padding: 0.1em 0.35em;
+  }
+}
+
+// Posts: metadata más respirada
+.quarto-title-meta {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/bienvenida/index.html",
+      "/posts/escribir-para-pensar/index.html"
+    ]
+  }
+]

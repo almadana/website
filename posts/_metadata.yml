@@ -1,0 +1,5 @@
+# Opciones por defecto para todos los posts
+title-block-banner: false
+toc: true
+page-layout: article
+freeze: true

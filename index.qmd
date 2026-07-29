@@ -1,0 +1,48 @@
+---
+toc: false
+page-layout: article
+title-block-style: none
+format:
+  html:
+    body-classes: page-home
+listing:
+  id: home-posts
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, reading-time, description]
+  max-items: 5
+  feed: false
+---
+
+::: {.hero}
+::: {.hero__copy}
+::: {.hero__name}
+Álvaro Cabana
+:::
+
+<p class="hero__lead">
+Ciencias Cognitivas y Ciencia de Datos.
+</p>
+
+::: {.hero__actions}
+[Leer el blog](blog.qmd){.btn-main}
+[Sobre mí](about.qmd){.btn-ghost}
+:::
+:::
+
+::: {.hero__photo}
+![](assets/foto.png){fig-alt="Foto de Álvaro Cabana"}
+:::
+:::
+
+::: {.home-section}
+## Posteos
+
+
+::: {#home-posts}
+:::
+:::

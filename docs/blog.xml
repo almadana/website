@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Álvaro Cabana</title>
+<link>https://alvarocabana.uy/blog.html</link>
+<atom:link href="https://alvarocabana.uy/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Página personal y blog profesional de Álvaro Cabana.</description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Tue, 14 Jul 2026 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bienvenida al sitio</title>
+  <dc:creator>Álvaro Cabana</dc:creator>
+  <link>https://alvarocabana.uy/posts/bienvenida/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Este sitio tiene un propósito doble: presentar quién soy y dejar un blog profesional donde pueda pensar en voz alta.</p>
+<section id="menos-panel-más-página" class="level2">
+<h2 class="anchored" data-anchor-id="menos-panel-más-página">Menos panel, más página</h2>
+<p>Quise algo liviano. Nada de dashboard, nada de widgets. Una tipografía clara, una paleta sobria y un recorrido simple: inicio, notas, sobre mí.</p>
+</section>
+<section id="qué-voy-a-publicar" class="level2">
+<h2 class="anchored" data-anchor-id="qué-voy-a-publicar">Qué voy a publicar</h2>
+<ul>
+<li>Apuntes técnicos que me resulten útiles a futuro</li>
+<li>Reflexiones sobre análisis, datos y comunicación</li>
+<li>Piezas cortas, aunque no estén “completas”</li>
+</ul>
+<p>Si llegaste hasta acá: gracias por leer. El próximo post ya está en camino.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meta</category>
+  <category>escritura</category>
+  <guid>https://alvarocabana.uy/posts/bienvenida/</guid>
+  <pubDate>Tue, 14 Jul 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://alvarocabana.uy/posts/bienvenida" medium="image"/>
+</item>
+<item>
+  <title>Escribir para pensar (y no al revés)</title>
+  <dc:creator>Álvaro Cabana</dc:creator>
+  <link>https://alvarocabana.uy/posts/escribir-para-pensar/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Hay blogs que existen para demostrar expertise. Otros existen para construirla. Prefiero lo segundo.</p>
+<section id="el-borrador-público" class="level2">
+<h2 class="anchored" data-anchor-id="el-borrador-público">El borrador público</h2>
+<p>Publicar no implica tener la respuesta cerrada. A veces el valor está en ordenar una pregunta: qué estoy midiendo, qué asumo, qué dejaría afuera.</p>
+</section>
+<section id="tres-reglas-simples" class="level2">
+<h2 class="anchored" data-anchor-id="tres-reglas-simples">Tres reglas simples</h2>
+<ol type="1">
+<li><strong>Una idea por nota.</strong> Si aparecen tres, parten el post.</li>
+<li><strong>Lenguaje concreto.</strong> Menos abstracción, más ejemplo.</li>
+<li><strong>Una próxima acción.</strong> Un enlace, un experimento, una pregunta abierta.</li>
+</ol>
+<p>El resto es oficio: volver, editar, y no confundir frecuencia con claridad.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>escritura</category>
+  <category>oficio</category>
+  <guid>https://alvarocabana.uy/posts/escribir-para-pensar/</guid>
+  <pubDate>Fri, 10 Jul 2026 03:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

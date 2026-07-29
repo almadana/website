@@ -1,0 +1,18 @@
+---
+title: "Blog"
+toc: false
+page-layout: article
+listing:
+  id: blog-posts
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [date, title, reading-time, description, categories]
+  feed: true
+---
+
+::: {#blog-posts}
+:::

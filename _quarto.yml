@@ -1,0 +1,69 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - .nojekyll
+    - assets/foto.jpg
+
+website:
+  title: "Álvaro Cabana"
+  description: "Página personal y blog profesional de Álvaro Cabana."
+  site-url: https://alvarocabana.uy
+  favicon: assets/favicon.svg
+  navbar:
+    background: transparent
+    title: "Álvaro Cabana"
+    left:
+      - text: Inicio
+        href: index.qmd
+      - text: Publicaciones
+        href: publi.qmd
+      - text: Proyectos
+        href: proyectos.qmd
+      - text: Datos
+        href: datos.qmd
+      - text: Blog
+        href: blog.qmd
+      - text: Sobre mí
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/almadana
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://uy.linkedin.com/in/%25C3%25A1lvaro-cabana-76b44934
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:acabana@psico.edu.uy
+        aria-label: Email
+  page-navigation: true
+  page-footer:
+    left: "© Álvaro Cabana"
+    center: ""
+    right:
+      - text: "Hecho con Quarto"
+        href: https://quarto.org
+  search: true
+
+format:
+  html:
+    lang: es
+    theme:
+      - litera
+      - styles.scss
+    css: custom.css
+    toc: true
+    toc-location: right
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    smooth-scroll: true
+    email-obfuscation: javascript
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+execute:
+  freeze: auto

@@ -1,0 +1,38 @@
+/* Ajustes finos que no van en SCSS del tema */
+
+.navbar-brand:hover {
+  color: var(--teal-deep) !important;
+}
+
+/* Aire visual en listados */
+div.quarto-post {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+div.quarto-post:last-child {
+  border-bottom: none;
+}
+
+/* Código más sobrio */
+pre sourceCode,
+div.sourceCode {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.65);
+}
+
+/* Sidebar TOC */
+#quarto-margin-sidebar .toc-actions,
+nav[role="doc-toc"] {
+  font-size: 0.9rem;
+}
+
+nav[role="doc-toc"] ul a {
+  color: var(--ink-soft);
+}
+
+nav[role="doc-toc"] ul a.active,
+nav[role="doc-toc"] ul a:hover {
+  color: var(--teal-deep);
+}

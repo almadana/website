@@ -1,0 +1,9 @@
+---
+title: "Proyectos"
+toc: false
+page-layout: article
+---
+
+Proyectos en curso y finalizados.
+
+<!-- Agregá acá tus proyectos. -->

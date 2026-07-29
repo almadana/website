@@ -1,0 +1,14 @@
+---
+title: "Publicaciones"
+toc: true
+toc-depth: 2
+page-layout: article
+---
+
+::: {}
+[Google Scholar](https://scholar.google.com/citations?user=pYL8AngAAAAJ)
+:::
+
+::: {.pub-list}
+{{< include data/publications.qmd >}}
+:::

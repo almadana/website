@@ -1,0 +1,555 @@
+{
+  "orcid_id": "0000-0002-8637-290X",
+  "synced_at": "2026-07-28T22:58:17Z",
+  "count": 29,
+  "publications": [
+    {
+      "put_code": 217332213,
+      "title": "Automatic quantification of lexical ambiguity using large-scale word association data",
+      "year": 2026,
+      "month": 6,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Behavior Research Methods",
+      "authors": [
+        "Ignacio Iglesias",
+        "Blair C. Armstrong",
+        "Julieta Laurino",
+        "Laura Kaczer",
+        "Álvaro Cabana"
+      ],
+      "doi": "10.3758/s13428-026-03050-9",
+      "url": "https://doi.org/10.3758/s13428-026-03050-9"
+    },
+    {
+      "put_code": 206290279,
+      "title": "What drives intersubject correlation of EEG during auditory narratives?",
+      "year": 2026,
+      "month": 2,
+      "type": "preprint",
+      "type_label": "Preprint",
+      "venue": null,
+      "authors": [
+        "Emilia Fló",
+        "Álvaro Cabana",
+        "Juan Valle-Lisboa",
+        "Damian Cruse",
+        "Jens Madsen",
+        "Lucas C. Parra",
+        "Jacobo Sitt"
+      ],
+      "doi": "10.64898/2026.02.19.706583",
+      "url": "https://doi.org/10.64898/2026.02.19.706583"
+    },
+    {
+      "put_code": 203978122,
+      "title": "The Author Recognition Test for Rioplatense Spanish",
+      "year": 2026,
+      "month": 1,
+      "type": "preprint",
+      "type_label": "Preprint",
+      "venue": null,
+      "authors": [
+        "Eleonora Achugar",
+        "Catalina Etcheverry",
+        "Álvaro Cabana"
+      ],
+      "doi": "10.31234/osf.io/p4x73_v1",
+      "url": "https://doi.org/10.31234/osf.io/p4x73_v1"
+    },
+    {
+      "put_code": 199427035,
+      "title": "Environmental drivers of calling activity in a southern subtropical anuran assemblage: insights from passive acoustic monitoring",
+      "year": 2026,
+      "month": 1,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Bioacoustics",
+      "authors": [
+        "Paula Pouso",
+        "Álvaro Cabana",
+        "Clara Nieto Methol"
+      ],
+      "doi": "10.1080/09524622.2025.2597859",
+      "url": "https://doi.org/10.1080/09524622.2025.2597859"
+    },
+    {
+      "put_code": 188307158,
+      "title": "Relationship between cognitive reserve (education), social cognition and negative symptoms",
+      "year": 2025,
+      "month": 12,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Schizophrenia Research: Cognition",
+      "authors": [
+        "Sebastián Lema Spinelli",
+        "Juan Francisco Rodríguez-Testal",
+        "Álvaro Cabana",
+        "Sandra Romano",
+        "Leonel Gómez-Sena"
+      ],
+      "doi": "10.1016/j.scog.2025.100379",
+      "url": "https://doi.org/10.1016/j.scog.2025.100379"
+    },
+    {
+      "put_code": 190384516,
+      "title": "Tracing the Dynamics and Content of Ruminative Thought using the FAST Paradigm",
+      "year": 2025,
+      "month": 8,
+      "type": "preprint",
+      "type_label": "Preprint",
+      "venue": null,
+      "authors": [
+        "Favio Dauría",
+        "Choong-Wan Woo",
+        "Álvaro Cabana",
+        "Victoria Gradin"
+      ],
+      "doi": "10.31234/osf.io/rf59k_v1",
+      "url": "https://doi.org/10.31234/osf.io/rf59k_v1"
+    },
+    {
+      "put_code": 163074255,
+      "title": "Event‐related potentials of social comparisons in depression and social anxiety",
+      "year": 2024,
+      "month": 11,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Psychophysiology",
+      "authors": [
+        "Valentina Paz",
+        "Eliana Nicolaisen‐Sobesky",
+        "Gabriela Fernández‐Theoduloz",
+        "Alfonso Pérez",
+        "Francisco Cervantes Constantino",
+        "Eduardo Martínez‐Montes",
+        "Dominique Kessel",
+        "Álvaro Cabana",
+        "Victoria B. Gradin"
+      ],
+      "doi": "10.1111/psyp.14643",
+      "url": "https://doi.org/10.1111/psyp.14643"
+    },
+    {
+      "put_code": 145997809,
+      "title": "Predicting Attentional Focus: Heartbeat-Evoked Responses and Brain Dynamics During Interoceptive and Exteroceptive Information Processing",
+      "year": 2023,
+      "month": 11,
+      "type": "preprint",
+      "type_label": "Preprint",
+      "venue": null,
+      "authors": [
+        "Emilia Flo",
+        "Laouen Belloli",
+        "Alvaro Cabana",
+        "Alessia Ruyan-Belabbas",
+        "Lise Jodaitis",
+        "Melanie Valente",
+        "Benjamin Rohaut",
+        "Lionel Naccache",
+        "Mario Rosanova",
+        "Angela Comanducci",
+        "Thomas Andrillon",
+        "Jacobo Sitt"
+      ],
+      "doi": "10.1101/2023.11.03.565584",
+      "url": "https://doi.org/10.1101/2023.11.03.565584"
+    },
+    {
+      "put_code": 137228329,
+      "title": "The \"Small World of Words\" free association norms for Rioplatense Spanish",
+      "year": 2023,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Behavior Research Methods",
+      "authors": [
+        "Cabana, Á.",
+        "Zugarramurdi, C.",
+        "Valle-Lisboa, J.C.",
+        "De Deyne, S."
+      ],
+      "doi": "10.3758/s13428-023-02070-z",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85149977058&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 137228335,
+      "title": "Involvement of neuropeptidergic neurons in the establishment of dominance in a teleost model of non-breeding aggression: neuropeptide-specific and status-dependent actions",
+      "year": 2023,
+      "month": null,
+      "type": "other",
+      "type_label": "Otro",
+      "venue": "ResearchSquare",
+      "authors": [
+        "Pouso, P.",
+        "Cabana, Á.",
+        "Francia, V.",
+        "Silva, A."
+      ],
+      "doi": "10.21203/rs.3.rs-2419476",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85148622736&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 137228328,
+      "title": "Event-related potentials during the ultimatum game in people with symptoms of depression and/or social anxiety",
+      "year": 2023,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Psychophysiology",
+      "authors": [
+        "Nicolaisen-Sobesky, E.",
+        "Paz, V.",
+        "Cervantes-Constantino, F.",
+        "Fernández-Theoduloz, G.",
+        "Pérez, A.",
+        "Martínez-Montes, E.",
+        "Kessel, D.",
+        "Cabana, Á.",
+        "Gradin, V.B."
+      ],
+      "doi": "10.1111/psyp.14319",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85158039361&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 137228336,
+      "title": "Who do I want in my team: Social avoidance of high qualified partners in depression and social anxiety",
+      "year": 2022,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Journal of Affective Disorders Reports",
+      "authors": [
+        "Uriarte-Gaspari, L.",
+        "Acuña, A.",
+        "Morales, S.",
+        "Fernández-Theoduloz, G.",
+        "Paz, V.",
+        "Pérez, A.",
+        "Cabana, Á.",
+        "Gradin, V.B."
+      ],
+      "doi": "10.1016/j.jadr.2022.100402",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85136555270&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 137228337,
+      "title": "Contact tracing-induced Allee effect in disease dynamics",
+      "year": 2022,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Journal of Theoretical Biology",
+      "authors": [
+        "Arim, M.",
+        "Herrera-Esposito, D.",
+        "Bermolen, P.",
+        "Cabana, Á.",
+        "Inés Fariello, M.",
+        "Lima, M.",
+        "Romero, H."
+      ],
+      "doi": "10.1016/j.jtbi.2022.111109",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85127364416&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 85750820,
+      "title": "Neural processing of iterated prisoner’s dilemma outcomes indicates next-round choice and speed to reciprocate cooperation",
+      "year": 2021,
+      "month": 3,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Social Neuroscience",
+      "authors": [
+        "Francisco Cervantes Constantino",
+        "Santiago Garat",
+        "Eliana Nicolaisen-Sobesky",
+        "Valentina Paz",
+        "Eduardo Martínez-Montes",
+        "Dominique Kessel",
+        "Álvaro Cabana",
+        "Victoria B. Gradin"
+      ],
+      "doi": "10.1080/17470919.2020.1859410",
+      "url": "https://doi.org/10.1080/17470919.2020.1859410"
+    },
+    {
+      "put_code": 137228331,
+      "title": "Assessing the impact of mobility reduction in the second wave of COVID-19.",
+      "year": 2021,
+      "month": null,
+      "type": "conference-paper",
+      "type_label": "Congreso",
+      "venue": "Proceedings - 2021 47th Latin American Computing Conference, CLEI 2021",
+      "authors": [
+        "Cabana, Á.",
+        "Etcheverry, L.",
+        "Fariello, M.I.",
+        "Bermolen, P.",
+        "Fiori, M."
+      ],
+      "doi": "10.1109/clei53233.2021.9639974",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85123851111&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 137228333,
+      "title": "EEG signatures of elementary composition: Disentangling genuine composition and expectancy processes",
+      "year": 2020,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Brain and Language",
+      "authors": [
+        "Fló, E.",
+        "Cabana, Á.",
+        "Valle-Lisboa, J.C."
+      ],
+      "doi": "10.1016/j.bandl.2020.104837",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85088997154&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 137228338,
+      "title": "Containment to outbreak tipping points in COVID-19",
+      "year": 2020,
+      "month": null,
+      "type": "other",
+      "type_label": "Otro",
+      "venue": "medRxiv",
+      "authors": [
+        "Arim, M.",
+        "Herrera-Esposito, D.",
+        "Bermolen, P.",
+        "Cabana, Á.",
+        "Fariello, M.I.",
+        "Lima, M.",
+        "Romero, H."
+      ],
+      "doi": "10.1101/2020.09.14.20194159",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85099743715&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 137228325,
+      "title": "A Cross-linguistic Study into the Contribution of Affective Connotation in the Lexico-semantic Representation of Concrete and Abstract Concepts",
+      "year": 2020,
+      "month": null,
+      "type": "conference-paper",
+      "type_label": "Congreso",
+      "venue": "Proceedings for the 42nd Annual Meeting of the Cognitive Science Society: Developing a Mind: Learning in Humans, Animals, and Machines, CogSci 2020",
+      "authors": [
+        "De Deyne, S.",
+        "Cabana, Á.",
+        "Li, B.",
+        "Cai, Q.",
+        "McKague, M."
+      ],
+      "doi": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85139508409&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 85443701,
+      "title": "Social avoidance in depression: A study using a social decision-making task.",
+      "year": 2019,
+      "month": 4,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Journal of Abnormal Psychology",
+      "authors": [
+        "Gabriela Fernández-Theoduloz",
+        "Valentina Paz",
+        "Eliana Nicolaisen-Sobesky",
+        "Alfonso Pérez",
+        "Abraham P. Buunk",
+        "Álvaro Cabana",
+        "Victoria B. Gradin"
+      ],
+      "doi": "10.1037/abn0000415",
+      "url": "https://doi.org/10.1037/abn0000415"
+    },
+    {
+      "put_code": 137228340,
+      "title": "Preoptic Area Activation and Vasotocin Involvement in the Reproductive Behavior of a Weakly Pulse-Type Electric Fish, Brachyhypopomus gauderio",
+      "year": 2019,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Frontiers in Integrative Neuroscience",
+      "authors": [
+        "Pouso, P.",
+        "Cabana, Á.",
+        "Goodson, J.L.",
+        "Silva, A."
+      ],
+      "doi": "10.3389/fnint.2019.00037",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85072734276&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 137228339,
+      "title": "Neural signals relating future cooperation from prisoner’s dilemma feedback are outcome-contingent",
+      "year": 2019,
+      "month": null,
+      "type": "other",
+      "type_label": "Otro",
+      "venue": "bioRxiv",
+      "authors": [
+        "Constantino, F.C.",
+        "Garat, S.",
+        "Nicolaisen-Sobesky, E.",
+        "Paz, V.",
+        "Martínez-Montes, E.",
+        "Kessel, D.",
+        "Cabana, Á.",
+        "Gradin, V.B."
+      ],
+      "doi": "10.1101/784033",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85095088467&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 60810057,
+      "title": "Effect of self-esteem on social interactions during the Ultimatum Game",
+      "year": 2017,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Psychiatry Research",
+      "authors": [
+        "Paz, V.",
+        "Nicolaisen-Sobesky, E.",
+        "Collado, E.",
+        "Horta, S.",
+        "Rey, C.",
+        "Rivero, M.",
+        "Berriolo, P.",
+        "Díaz, M.",
+        "Otón, M.",
+        "Pérez, A.",
+        "Fernández-Theoduloz, G.",
+        "Cabana, A.",
+        "Gradin, V.B."
+      ],
+      "doi": "10.1016/j.psychres.2016.12.063",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85014865563&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 60810058,
+      "title": "Signature size signals sociable dominance and narcissism",
+      "year": 2016,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Journal of Research in Personality",
+      "authors": [
+        "Mailhos, A.",
+        "Buunk, A.P.",
+        "Cabana, Á."
+      ],
+      "doi": "10.1016/j.jrp.2016.09.004",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84989166131&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 60810060,
+      "title": "Relative meaning frequencies for 578 homonyms in two Spanish dialects: A cross-linguistic extension of the English eDom norms",
+      "year": 2016,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Behavior Research Methods",
+      "authors": [
+        "Armstrong, B.C.",
+        "Zugarramurdi, C.",
+        "Cabana, Á.",
+        "Valle Lisboa, J.",
+        "Plaut, D.C."
+      ],
+      "doi": "10.3758/s13428-015-0639-3",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84939231924&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 60810055,
+      "title": "Cognitive abilities that mediate SES’s effect on elementary mathematics learning: The Uruguayan tablet-based intervention",
+      "year": 2016,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Prospects",
+      "authors": [
+        "Valle-Lisboa, J.",
+        "Cabana, Á.",
+        "Eisinger, R.",
+        "Mailhos, Á.",
+        "Luzardo, M.",
+        "Halberda, J.",
+        "Maiche, A."
+      ],
+      "doi": "10.1007/s11125-017-9392-y",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85015672547&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 60810061,
+      "title": "A neural model that implements probabilistic topics",
+      "year": 2016,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Neurocomputing",
+      "authors": [
+        "Cabana, A.",
+        "Mizraji, E.",
+        "Valle-Lisboa, J.C."
+      ],
+      "doi": "10.1016/j.neucom.2015.07.061",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84944462917&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 60810059,
+      "title": "A modular approach to language production: Models and facts",
+      "year": 2014,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Cortex",
+      "authors": [
+        "Valle-Lisboa, J.C.",
+        "Pomi, A.",
+        "Cabana, T.",
+        "Elvevåg, B.",
+        "Mizraji, E."
+      ],
+      "doi": "10.1016/j.cortex.2013.02.005",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84897115514&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 60810062,
+      "title": "Detecting order-disorder transitions in discourse: Implications for schizophrenia",
+      "year": 2011,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Schizophrenia Research",
+      "authors": [
+        "Cabana, Á.",
+        "Valle-Lisboa, J.C.",
+        "Elvevåg, B.",
+        "Mizraji, E."
+      ],
+      "doi": "10.1016/j.schres.2011.04.026",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-80051781059&partnerID=MN8TOARS"
+    },
+    {
+      "put_code": 60810056,
+      "title": "Looking for robust properties in the growth of an academic network: The case of the Uruguayan biological research community",
+      "year": 2008,
+      "month": null,
+      "type": "journal-article",
+      "type_label": "Artículo",
+      "venue": "Journal of Biological Physics",
+      "authors": [
+        "Cabana, Á.",
+        "Mizraji, E.",
+        "Pomi, A.",
+        "Valle-Lisboa, J.C."
+      ],
+      "doi": "10.1007/s10867-008-9110-3",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-55349117760&partnerID=MN8TOARS"
+    }
+  ]
+}

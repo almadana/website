@@ -1,0 +1,71 @@
+<!-- Generado por scripts/sync_orcid.py — no editar a mano -->
+
+Fuente: [ORCID 0000-0002-8637-290X](https://orcid.org/0000-0002-8637-290X).
+
+## 2026
+
+- [**Automatic quantification of lexical ambiguity using large-scale word association data**](https://doi.org/10.3758/s13428-026-03050-9) · Ignacio Iglesias, Blair C. Armstrong, Julieta Laurino, Laura Kaczer y Álvaro Cabana · *Behavior Research Methods* · `Artículo`
+- [**What drives intersubject correlation of EEG during auditory narratives?**](https://doi.org/10.64898/2026.02.19.706583) · Emilia Fló, Álvaro Cabana, Juan Valle-Lisboa, Damian Cruse, Jens Madsen, Lucas C. Parra y Jacobo Sitt · `Preprint`
+- [**The Author Recognition Test for Rioplatense Spanish**](https://doi.org/10.31234/osf.io/p4x73_v1) · Eleonora Achugar, Catalina Etcheverry y Álvaro Cabana · `Preprint`
+- [**Environmental drivers of calling activity in a southern subtropical anuran assemblage: insights from passive acoustic monitoring**](https://doi.org/10.1080/09524622.2025.2597859) · Paula Pouso, Álvaro Cabana y Clara Nieto Methol · *Bioacoustics* · `Artículo`
+
+## 2025
+
+- [**Relationship between cognitive reserve (education), social cognition and negative symptoms**](https://doi.org/10.1016/j.scog.2025.100379) · Sebastián Lema Spinelli, Juan Francisco Rodríguez-Testal, Álvaro Cabana, Sandra Romano y Leonel Gómez-Sena · *Schizophrenia Research: Cognition* · `Artículo`
+- [**Tracing the Dynamics and Content of Ruminative Thought using the FAST Paradigm**](https://doi.org/10.31234/osf.io/rf59k_v1) · Favio Dauría, Choong-Wan Woo, Álvaro Cabana y Victoria Gradin · `Preprint`
+
+## 2024
+
+- [**Event‐related potentials of social comparisons in depression and social anxiety**](https://doi.org/10.1111/psyp.14643) · Valentina Paz, Eliana Nicolaisen‐Sobesky, Gabriela Fernández‐Theoduloz, Alfonso Pérez, Francisco Cervantes Constantino, Eduardo Martínez‐Montes, Dominique Kessel, Álvaro Cabana y Victoria B. Gradin · *Psychophysiology* · `Artículo`
+
+## 2023
+
+- [**Predicting Attentional Focus: Heartbeat-Evoked Responses and Brain Dynamics During Interoceptive and Exteroceptive Information Processing**](https://doi.org/10.1101/2023.11.03.565584) · Emilia Flo, Laouen Belloli, Alvaro Cabana, Alessia Ruyan-Belabbas, Lise Jodaitis, Melanie Valente, Benjamin Rohaut, Lionel Naccache, Mario Rosanova, Angela Comanducci, Thomas Andrillon y Jacobo Sitt · `Preprint`
+- [**The "Small World of Words" free association norms for Rioplatense Spanish**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85149977058&partnerID=MN8TOARS) · Cabana, Á., Zugarramurdi, C., Valle-Lisboa, J.C. y De Deyne, S. · *Behavior Research Methods* · `Artículo`
+- [**Involvement of neuropeptidergic neurons in the establishment of dominance in a teleost model of non-breeding aggression: neuropeptide-specific and status-dependent actions**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85148622736&partnerID=MN8TOARS) · Pouso, P., Cabana, Á., Francia, V. y Silva, A. · *ResearchSquare* · `Otro`
+- [**Event-related potentials during the ultimatum game in people with symptoms of depression and/or social anxiety**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85158039361&partnerID=MN8TOARS) · Nicolaisen-Sobesky, E., Paz, V., Cervantes-Constantino, F., Fernández-Theoduloz, G., Pérez, A., Martínez-Montes, E., Kessel, D., Cabana, Á. y Gradin, V.B. · *Psychophysiology* · `Artículo`
+
+## 2022
+
+- [**Who do I want in my team: Social avoidance of high qualified partners in depression and social anxiety**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85136555270&partnerID=MN8TOARS) · Uriarte-Gaspari, L., Acuña, A., Morales, S., Fernández-Theoduloz, G., Paz, V., Pérez, A., Cabana, Á. y Gradin, V.B. · *Journal of Affective Disorders Reports* · `Artículo`
+- [**Contact tracing-induced Allee effect in disease dynamics**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85127364416&partnerID=MN8TOARS) · Arim, M., Herrera-Esposito, D., Bermolen, P., Cabana, Á., Inés Fariello, M., Lima, M. y Romero, H. · *Journal of Theoretical Biology* · `Artículo`
+
+## 2021
+
+- [**Neural processing of iterated prisoner’s dilemma outcomes indicates next-round choice and speed to reciprocate cooperation**](https://doi.org/10.1080/17470919.2020.1859410) · Francisco Cervantes Constantino, Santiago Garat, Eliana Nicolaisen-Sobesky, Valentina Paz, Eduardo Martínez-Montes, Dominique Kessel, Álvaro Cabana y Victoria B. Gradin · *Social Neuroscience* · `Artículo`
+- [**Assessing the impact of mobility reduction in the second wave of COVID-19.**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85123851111&partnerID=MN8TOARS) · Cabana, Á., Etcheverry, L., Fariello, M.I., Bermolen, P. y Fiori, M. · *Proceedings - 2021 47th Latin American Computing Conference, CLEI 2021* · `Congreso`
+
+## 2020
+
+- [**EEG signatures of elementary composition: Disentangling genuine composition and expectancy processes**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85088997154&partnerID=MN8TOARS) · Fló, E., Cabana, Á. y Valle-Lisboa, J.C. · *Brain and Language* · `Artículo`
+- [**Containment to outbreak tipping points in COVID-19**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85099743715&partnerID=MN8TOARS) · Arim, M., Herrera-Esposito, D., Bermolen, P., Cabana, Á., Fariello, M.I., Lima, M. y Romero, H. · *medRxiv* · `Otro`
+- [**A Cross-linguistic Study into the Contribution of Affective Connotation in the Lexico-semantic Representation of Concrete and Abstract Concepts**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85139508409&partnerID=MN8TOARS) · De Deyne, S., Cabana, Á., Li, B., Cai, Q. y McKague, M. · *Proceedings for the 42nd Annual Meeting of the Cognitive Science Society: Developing a Mind: Learning in Humans, Animals, and Machines, CogSci 2020* · `Congreso`
+
+## 2019
+
+- [**Social avoidance in depression: A study using a social decision-making task.**](https://doi.org/10.1037/abn0000415) · Gabriela Fernández-Theoduloz, Valentina Paz, Eliana Nicolaisen-Sobesky, Alfonso Pérez, Abraham P. Buunk, Álvaro Cabana y Victoria B. Gradin · *Journal of Abnormal Psychology* · `Artículo`
+- [**Preoptic Area Activation and Vasotocin Involvement in the Reproductive Behavior of a Weakly Pulse-Type Electric Fish, Brachyhypopomus gauderio**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85072734276&partnerID=MN8TOARS) · Pouso, P., Cabana, Á., Goodson, J.L. y Silva, A. · *Frontiers in Integrative Neuroscience* · `Artículo`
+- [**Neural signals relating future cooperation from prisoner’s dilemma feedback are outcome-contingent**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85095088467&partnerID=MN8TOARS) · Constantino, F.C., Garat, S., Nicolaisen-Sobesky, E., Paz, V., Martínez-Montes, E., Kessel, D., Cabana, Á. y Gradin, V.B. · *bioRxiv* · `Otro`
+
+## 2017
+
+- [**Effect of self-esteem on social interactions during the Ultimatum Game**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85014865563&partnerID=MN8TOARS) · Paz, V., Nicolaisen-Sobesky, E., Collado, E., Horta, S., Rey, C., Rivero, M., Berriolo, P., Díaz, M., Otón, M., Pérez, A., Fernández-Theoduloz, G., Cabana, A. y Gradin, V.B. · *Psychiatry Research* · `Artículo`
+
+## 2016
+
+- [**Signature size signals sociable dominance and narcissism**](http://www.scopus.com/inward/record.url?eid=2-s2.0-84989166131&partnerID=MN8TOARS) · Mailhos, A., Buunk, A.P. y Cabana, Á. · *Journal of Research in Personality* · `Artículo`
+- [**Relative meaning frequencies for 578 homonyms in two Spanish dialects: A cross-linguistic extension of the English eDom norms**](http://www.scopus.com/inward/record.url?eid=2-s2.0-84939231924&partnerID=MN8TOARS) · Armstrong, B.C., Zugarramurdi, C., Cabana, Á., Valle Lisboa, J. y Plaut, D.C. · *Behavior Research Methods* · `Artículo`
+- [**Cognitive abilities that mediate SES’s effect on elementary mathematics learning: The Uruguayan tablet-based intervention**](http://www.scopus.com/inward/record.url?eid=2-s2.0-85015672547&partnerID=MN8TOARS) · Valle-Lisboa, J., Cabana, Á., Eisinger, R., Mailhos, Á., Luzardo, M., Halberda, J. y Maiche, A. · *Prospects* · `Artículo`
+- [**A neural model that implements probabilistic topics**](http://www.scopus.com/inward/record.url?eid=2-s2.0-84944462917&partnerID=MN8TOARS) · Cabana, A., Mizraji, E. y Valle-Lisboa, J.C. · *Neurocomputing* · `Artículo`
+
+## 2014
+
+- [**A modular approach to language production: Models and facts**](http://www.scopus.com/inward/record.url?eid=2-s2.0-84897115514&partnerID=MN8TOARS) · Valle-Lisboa, J.C., Pomi, A., Cabana, T., Elvevåg, B. y Mizraji, E. · *Cortex* · `Artículo`
+
+## 2011
+
+- [**Detecting order-disorder transitions in discourse: Implications for schizophrenia**](http://www.scopus.com/inward/record.url?eid=2-s2.0-80051781059&partnerID=MN8TOARS) · Cabana, Á., Valle-Lisboa, J.C., Elvevåg, B. y Mizraji, E. · *Schizophrenia Research* · `Artículo`
+
+## 2008
+
+- [**Looking for robust properties in the growth of an academic network: The case of the Uruguayan biological research community**](http://www.scopus.com/inward/record.url?eid=2-s2.0-55349117760&partnerID=MN8TOARS) · Cabana, Á., Mizraji, E., Pomi, A. y Valle-Lisboa, J.C. · *Journal of Biological Physics* · `Artículo`

@@ -1,0 +1,29 @@
+# Caché de Quarto (no publicar)
+_site/
+.quarto/
+
+# Freeze / caché
+*_cache/
+*_files/
+.jupyter_cache/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.vscode/
+.idea/
+
+# Secretos
+.env
+.env.*
+
+# Nota: docs/ SÍ se versiona para GitHub Pages
+# (tras cada `quarto render`)
+
+/.quarto/
+
+**/*.quarto_ipynb

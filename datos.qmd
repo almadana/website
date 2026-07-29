@@ -1,0 +1,9 @@
+---
+title: "Datos"
+toc: false
+page-layout: article
+---
+
+Datasets y materiales abiertos asociados a la investigación.
+
+<!-- Agregá acá enlaces a datos, repositorios u OSF. -->

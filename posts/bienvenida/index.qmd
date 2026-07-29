@@ -1,0 +1,24 @@
+---
+title: "Bienvenida al sitio"
+description: "Por qué armé esta página, qué vas a encontrar y cómo pienso escribir acá."
+author: "Álvaro Cabana"
+date: "2026-07-14"
+categories: [meta, escritura]
+image: ""
+---
+
+Este sitio tiene un propósito doble: presentar quién soy y dejar un blog
+profesional donde pueda pensar en voz alta.
+
+## Menos panel, más página
+
+Quise algo liviano. Nada de dashboard, nada de widgets. Una tipografía
+clara, una paleta sobria y un recorrido simple: inicio, notas, sobre mí.
+
+## Qué voy a publicar
+
+- Apuntes técnicos que me resulten útiles a futuro
+- Reflexiones sobre análisis, datos y comunicación
+- Piezas cortas, aunque no estén “completas”
+
+Si llegaste hasta acá: gracias por leer. El próximo post ya está en camino.

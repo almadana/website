@@ -1,0 +1,23 @@
+---
+title: "Escribir para pensar (y no al revés)"
+description: "Algunas notas sobre usar el blog como herramienta de trabajo, no solo como escaparate."
+author: "Álvaro Cabana"
+date: "2026-07-10"
+categories: [escritura, oficio]
+---
+
+Hay blogs que existen para demostrar expertise. Otros existen para
+construirla. Prefiero lo segundo.
+
+## El borrador público
+
+Publicar no implica tener la respuesta cerrada. A veces el valor está
+en ordenar una pregunta: qué estoy midiendo, qué asumo, qué dejaría afuera.
+
+## Tres reglas simples
+
+1. **Una idea por nota.** Si aparecen tres, parten el post.
+2. **Lenguaje concreto.** Menos abstracción, más ejemplo.
+3. **Una próxima acción.** Un enlace, un experimento, una pregunta abierta.
+
+El resto es oficio: volver, editar, y no confundir frecuencia con claridad.

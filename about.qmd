@@ -1,0 +1,40 @@
+---
+title: "Sobre mí"
+toc: false
+page-layout: article
+---
+
+::::: {.about-grid}
+
+:::: {.about-main}
+
+Hola, soy **Álvaro Cabana**.
+
+Mi título de grado dice que soy biólogo, pero para mí soy un cientista de datos en ciencia cognitivas, ponele. Me interesa el lenguaje tanto en animales como en máquinas.
+
+Actualmente soy Profesor Agregado de Ciencia de Datos y Psicometría de la Facultad de Psicología, e integro el Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático [(CICADA)](https://www.cicada.uy). Tengo mi oficina en el Centro de Investigación Básica en Psicolgía [(CIBPsi)](https://cibpsi.psico.edu.uy) donde lidero la línea de "Cerebro y Lenguaje", y juego con experimentos comportamentales y de neuroimagen, también me divierto con modelos de lenguaje. 
+
+En esta página podés encontrar algo de info sobre mis proyectos, y también un blog con cosas que tengo ganas de decir, pero relativamente poca disciplina para escribir regularmente.
+
+
+[Podés mandarme un mail a acabana .arroba. psico .punto. edu .punto. uy](mailto:acabana@psico.edu.uy), o seguirme en mis redces, allá arriba del todo, a la derecha. 
+
+::::
+
+:::: {.about-aside}
+
+**Qué encontrarás aquí**
+
+- Publicaciones y pre-prints
+- Links a proyectos y a datos
+- Posteos en el blog
+
+**Enlaces**
+
+- [Blog](blog.qmd)
+- [GitHub](https://github.com/almadana)
+- [LinkedIn](https://uy.linkedin.com/in/%25C3%25A1lvaro-cabana-76b44934)
+
+::::
+
+:::::
