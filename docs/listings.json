@@ -1,7 +1,10 @@
 [
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/posts/bienvenida/index.html",
+      "/posts/escribir-para-pensar/index.html"
+    ]
   },
   {
     "listing": "/blog.html",
