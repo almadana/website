@@ -1,0 +1,64 @@
+<!-- Generado por scripts/search_prensa.py render — no editar a mano -->
+<!-- Ítems de lista SIN línea en blanco entre sí (si no, pandoc mete <p> y cambia el estilo). -->
+
+## 2026
+
+- **2026-06-25 · Radio Fénix** — [Neurociencia y lenguaje: cómo el cerebro construye lo que pensamos | Álvaro Cabana  | Código Humano](https://www.youtube.com/watch?v=2vxuGQh_8eo)
+- **2026-06-25 · TV Ciudad** — [Entre vista en "Conexiones"](https://youtu.be/EP11o4MXxuY?si=h6LKwYVKgX1Guk4p)
+- **2026-07-14 · la diaria** — [Docentes alertan que la inteligencia artificial obliga a la universidad a repensar cómo enseñar y evaluar](https://ladiaria.com.uy/futuro/articulo/2026/7/docentes-alertan-que-la-inteligencia-artificial-obliga-a-la-universidad-a-repensar-como-ensenar-y-evaluar/)
+- **2026-06-19 · la diaria Radio** — [Entrevista con Pablo Casacuberta · La Colmena · la diaria Radio](https://radio.ladiaria.com.uy/la-colmena/497)
+
+## 2025
+
+- **2025-10-08 · Sala de redacción - FIC** — [La IA como terapeuta de bolsillo: ¿compañía o riesgo para la salud mental?](https://sdr.fic.edu.uy/la-ia-como-terapeuta-de-bolsillo-compania-o-riesgo-para-la-salud-mental/)
+- **2025-11-22 · la diaria** — [Chat GPT y sedentarismo cognitivo: aprender de consultas a la IA implica adquirir conocimientos menos profundos que googleando](https://ladiaria.com.uy/ciencia/articulo/2025/11/chat-gpt-y-sedentarismo-cognitivo-aprender-de-consultas-a-la-ia-implica-adquirir-conocimientos-menos-profundos-que-googleando/)
+- **2025-05-08 · Radio Carve** — [ChatGPT como psicólogo: el auge y los riesgos de la terapia con IA](https://radiocarve.uy/chatgpt-como-psicologo-el-auge-y-los-riesgos-de-la-terapia-con-ia/)
+
+## 2024
+
+- **2024-11-10 · El País ** — [El inesperado uso de ChatGPT como psicólogo: le cuentan secretos y problemas en una supuesta terapia gratis](https://www.elpais.com.uy/que-pasa/cada-vez-mas-gente-usa-chatgpt-como-psicologo-gratuito-los-peligros-de-la-terapia-con-inteligencia-artificial)
+
+## 2023
+
+- **2023-08-20 · El Observador** — [La pandemia alteró el lenguaje de los uruguayos: las 100 palabras que cambiaron de significado](https://www.elobservador.com.uy/nota/la-pandemia-altero-el-lenguaje-de-los-uruguayos-las-100-palabras-que-cambiaron-de-significado-202381813450)
+- **2023-08-04 · Radio Carve / C-Level** — [Álvaro Cabana: “El ChatGPT no habla ni piensa, es una máquina…”](https://clevel.com.uy/alvaro-cabana-el-chatgpt-no-habla-ni-piensa-es-una-maquina-que-lo-que-hace-es-predecir-las-palabras/)
+
+## 2022
+
+- **2022-02-08 · Medios Públicos** — [Las palabras y el funcionamiento del cerebro, con Álvaro Cabana | Efecto Mariposa](https://mediospublicos.uy/las-palabras-y-el-funcionamiento-del-cerebro-con-alvaro-cabana/)
+
+## 2021
+
+- **2021-03-16 · TV Ciudad** — [Informe capital](https://x.com/InfoCapitalTV/status/1371940556746657792?s=20)
+- **2021-02-10 · TV Ciudad** — [Informe capital](https://www.youtube.com/watch?v=_MIZTFNH2Ig)
+- **2021-06-01 · la diaria** — [Para filósofo, los resultados de la ciencia están siendo instrumentalizados por el poder político](https://ladiaria.com.uy/politica/articulo/2021/6/para-filosofo-los-resultados-de-la-ciencia-estan-siendo-instrumentalizados-por-el-poder-politico/)
+- **2021-05-11 · Diario Usach** — [Álvaro Cabana, investigador uruguayo: “Pasamos de ser de los mejores países que habían dominado la pandemia, a ser los peores”](https://www.diariousach.cl/actualidad/nacional/alvaro-cabana-investigador-uruguayo-pasamos-de-ser-de-los-mejores)
+- **2021-05-01 · la diaria** — [Pandemia: científicos relativizan datos alentadores sobre la situación epidemiológica](https://ladiaria.com.uy/coronavirus/articulo/2021/5/pandemia-cientificos-relativizan-datos-alentadores-sobre-la-situacion-epidemiologica/)
+- **2021-04-23 · SobreCiencia** — [SobreCiencia en el Centro de Investigación Básica en Psicología (CIBPsi)](https://sobreciencia.uy/sobreciencia-en-el-centro-de-investigacion-basica-en-psicologia-cibpsi/)
+- **2021-02-26 · Radio Sarandí** — [Proyecto Lexicón trabaja para elaborar el “diccionario mental rioplatense”](https://www.sarandi690.com.uy/2021/02/26/proyecto-lexicon-trabaja-para-elaborar-el-diccionario-mental-rioplatense/)
+- **2021-02-23 · Canal 10** — [Entrevista - Arriba Gente](https://www.youtube.com/watch?v=IhJAG6KwjVQ)
+- **2021-02-13 · El País** — [Investigación busca cambios de significados de las palabras por pandemia](https://www.elpais.com.uy/vida-actual/investigacion-busca-cambios-de-significados-de-las-palabras-por-pandemia)
+- **2021-02-06 · la diaria** — [Investigación del Guiad ratifica la utilidad de las medidas de reducción de la movilidad](https://ladiaria.com.uy/politica/articulo/2021/2/investigacion-del-guiad-ratifica-la-utilidad-de-las-medidas-de-reduccion-de-la-movilidad-para-frenar-la-covid-19/)
+- **2021-01-01 · la diaria** — [La coalición apunta nuevamente a las marchas como origen del aumento de casos](https://ladiaria.com.uy/politica/articulo/2021/1/la-coalicion-apunta-nuevamente-a-las-marchas-como-origen-del-aumento-de-casos-de-covid-19/)
+- **2021-01-09 · Radiocero** — [Entrevista en "Arde La Ciudad"](https://open.spotify.com/episode/0tvvHofKZF0CBMl4tCbOvQ?si=C0FhDw7QRRCnRocI1ujrDw&nd=1)
+
+## 2020
+
+- **2020-07-01 · la diaria** — [Rastreo de contactos: ¿una de las claves del éxito de Uruguay…?](https://ladiaria.com.uy/ciencia/articulo/2020/7/rastreo-de-contactos-una-de-las-claves-del-exito-de-uruguay-en-detener-al-coronavirus-es-tambien-nuestro-talon-de-aquiles/)
+
+## 2019
+
+- **2019-07-16 · la diaria** — [¿Cómo se conectan las palabras en la mente de los rioplatenses?](https://ladiaria.com.uy/ciencia/articulo/2019/7/como-se-conectan-las-palabras-en-la-mente-de-los-rioplatenses/)
+- **2019-02-14 · SobreCiencia** — [Proyecto Lexicón propone un juego de relaciones entre palabras](https://sobreciencia.uy/proyecto-lexicon-propone-un-juego-de-relaciones-entre-palabras/)
+
+## 2018
+
+- **2018-12-01 · la diaria** — [Diccionario mental](https://ladiaria.com.uy/cotidiana/articulo/2018/12/diccionario-mental/)
+- **2018-10-11 · Radio Sarandí** — [Lexicón: mediante juegos de palabras crean el diccionario mental uruguayo](https://www.sarandi690.com.uy/2018/10/11/22301-diccionario-mental-lexicon/)
+- **2018-10-15 · Canal 10** — [Entrevista en La Tarde en Casa](https://youtu.be/Z3WnsxR3vDw?t=500)
+
+- **El País Uruguay** — [Crean diccionario mental uruguayo](https://www.elpais.com.uy/vida-actual/crean-diccionario-mental-uruguayo)
+
+## 2014
+
+- **2014-03-13 · El Observador** — [Jugar con las palabras y la mente](https://www.elobservador.com.uy/nota/jugar-con-las-palabras-y-la-mente-20143131780)

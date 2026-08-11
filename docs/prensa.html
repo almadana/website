@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Álvaro Cabana</title>
+<title>Prensa – Álvaro Cabana</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -34,8 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/favicon.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -45,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4998722678af35916e44a37a83aa4f06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-756d4b23e64f889edc15953ad46841f3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,74 +71,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-home-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-reading-time','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-home-posts'] = new List('listing-home-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&amp;display=swap" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="custom.css">
 </head>
 
-<body class="nav-fixed page-home fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -158,7 +98,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
@@ -170,7 +110,7 @@ window.Quarto = {
 <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./prensa.html"> 
+    <a class="nav-link active" href="./prensa.html" aria-current="page"> 
 <span class="menu-text">Prensa</span></a>
   </li>  
   <li class="nav-item">
@@ -217,39 +157,94 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Prensa</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<div class="hero">
-<div class="hero__copy">
-<div class="hero__name">
-<p>Álvaro Cabana</p>
-</div>
-<p class="hero__lead">
-Ciencias Cognitivas y Ciencia de Datos.
-</p>
-<div class="hero__actions">
-<p><a href="./blog.html" class="btn-main">Leer el blog</a> <a href="./about.html" class="btn-ghost">Sobre mí</a></p>
-</div>
-</div>
-<div class="hero__photo">
-<p><img src="assets/foto.png" class="img-fluid" alt="Foto de Álvaro Cabana"></p>
-</div>
-</div>
-<section id="posteos" class="level2 home-section">
-<h2 class="anchored" data-anchor-id="posteos">Posteos</h2>
-<div id="listing-home-posts" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
+    
+  
+    
+  </div>
+  
 
-</div>
-<div class="listing-no-matching d-none">No hay resultados</div>
-</div>
+
+</header>
+
+
+<p>Apariciones en medios (notas, entrevistas y coberturas). Ordenadas por fecha.</p>
+<div class="pub-list">
+<!-- Generado por scripts/search_prensa.py render — no editar a mano -->
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2026</h2>
+<ul>
+<li><strong>2026-07-14 · la diaria</strong> — <a href="https://ladiaria.com.uy/futuro/articulo/2026/7/docentes-alertan-que-la-inteligencia-artificial-obliga-a-la-universidad-a-repensar-como-ensenar-y-evaluar/">Docentes alertan que la inteligencia artificial obliga a la …</a></li>
+</ul>
 </section>
-
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2023</h2>
+<ul>
+<li><strong>2023-08-04 · C-Level</strong> — <a href="https://clevel.com.uy/alvaro-cabana-el-chatgpt-no-habla-ni-piensa-es-una-maquina-que-lo-que-hace-es-predecir-las-palabras/">Álvaro Cabana: “El ChatGPT no habla ni piensa, es una máquina …</a></li>
+</ul>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2">2022</h2>
+<ul>
+<li><strong>2022-02-08 · Google News</strong> — <a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxPWkQ4b0p2OTd6aEVXbG4tNFI0SktUaDVURFVIS3lVX0FFWUV0dG1ObExDeGJWWnZ6U2JINVhmSzYtVGRHRG53Q2ZVemNOYmpZWkdMVjhCTF9GZHh4blNpcHROZzloUFdLb0gycFJKNGVCUlJqS0ljU05kUDl2c0VqWXdBZk91ckptS2VDUXE2S0pOX0U?oc=5">Las palabras y el funcionamiento del cerebro, con Álvaro Cabana</a></li>
+</ul>
+</section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3">2021</h2>
+<ul>
+<li><strong>2021-06-01 · la diaria</strong> — <a href="https://ladiaria.com.uy/politica/articulo/2021/6/para-filosofo-los-resultados-de-la-ciencia-estan-siendo-instrumentalizados-por-el-poder-politico/">Para filósofo, los resultados de la ciencia están… | la diaria | Uruguay</a></li>
+<li><strong>2021-05-11 · Diario Usach</strong> — <a href="https://www.diariousach.cl/actualidad/nacional/alvaro-cabana-investigador-uruguayo-pasamos-de-ser-de-los-mejores">Álvaro Cabana, investigador uruguayo: “Pasamos de ser de los mejores países que habían dominado la pandemia, a ser los peores” | Diario Usach</a></li>
+<li><strong>2021-05-01 · la diaria</strong> — <a href="https://ladiaria.com.uy/coronavirus/articulo/2021/5/pandemia-cientificos-relativizan-datos-alentadores-sobre-la-situacion-epidemiologica/">Pandemia: científicos relativizan datos alentadores… | la diaria | Uruguay</a></li>
+<li><strong>2021-02-26 · Radio Sarandí</strong> — <a href="https://www.sarandi690.com.uy/2021/02/26/proyecto-lexicon-trabaja-para-elaborar-el-diccionario-mental-rioplatense/">Proyecto Lexicón trabaja para elaborar el “diccionario mental …</a></li>
+<li><strong>2021-02-06 · la diaria</strong> — <a href="https://ladiaria.com.uy/politica/articulo/2021/2/investigacion-del-guiad-ratifica-la-utilidad-de-las-medidas-de-reduccion-de-la-movilidad-para-frenar-la-covid-19/">Investigación del Guiad ratifica la utilidad de las medidas …</a></li>
+<li><strong>2021-01-01 · la diaria</strong> — <a href="https://ladiaria.com.uy/politica/articulo/2021/1/la-coalicion-apunta-nuevamente-a-las-marchas-como-origen-del-aumento-de-casos-de-covid-19/">La coalición apunta nuevamente a las marchas… | la diaria | Uruguay</a></li>
+</ul>
+</section>
+<section id="section-4" class="level2">
+<h2 class="anchored" data-anchor-id="section-4">2020</h2>
+<ul>
+<li><strong>2020-07-01 · la diaria</strong> — <a href="https://ladiaria.com.uy/ciencia/articulo/2020/7/rastreo-de-contactos-una-de-las-claves-del-exito-de-uruguay-en-detener-al-coronavirus-es-tambien-nuestro-talon-de-aquiles/">Rastreo de contactos: ¿una de las claves del éxito… | la diaria | Uruguay</a></li>
+</ul>
+</section>
+<section id="section-5" class="level2">
+<h2 class="anchored" data-anchor-id="section-5">2019</h2>
+<ul>
+<li><strong>2019-02-14 · Red LCC</strong> — <a href="https://redlcc.org/2019/02/14/proyecto-lexicon-propone-un-juego-de-relaciones-entre-palabras/">Proyecto Lexicón propone un juego de relaciones entre palabras</a></li>
+</ul>
+</section>
+<section id="section-6" class="level2">
+<h2 class="anchored" data-anchor-id="section-6">2018</h2>
+<ul>
+<li><strong>2018-12-01 · la diaria</strong> — <a href="https://ladiaria.com.uy/cotidiana/articulo/2018/12/diccionario-mental/">Diccionario mental | la diaria | Uruguay</a></li>
+<li><strong>2018-10-11 · Radio Sarandí</strong> — <a href="https://www.sarandi690.com.uy/2018/10/11/22301-diccionario-mental-lexicon/">Lexicón: Mediante juegos de palabras crean el diccionario …</a></li>
+</ul>
+</section>
+<section id="sin-fecha" class="level2">
+<h2 class="anchored" data-anchor-id="sin-fecha">Sin fecha</h2>
+<ul>
+<li><strong>SobreCiencia</strong> — <a href="https://sobreciencia.uy/sobreciencia-en-el-centro-de-investigacion-basica-en-psicologia-cibpsi/">SobreCiencia en el Centro de Investigación Básica en Psicología…</a></li>
+<li><strong>SobreCiencia</strong> — <a href="https://sobreciencia.uy/proyecto-lexicon-propone-un-juego-de-relaciones-entre-palabras/">Proyecto Lexicón propone un juego de relaciones entre palabras…</a></li>
+<li><strong>Medios Públicos</strong> — <a href="https://mediospublicos.uy/las-palabras-y-el-funcionamiento-del-cerebro-con-alvaro-cabana/">Las palabras y el funcionamiento del cerebro, con Álvaro Cabana</a></li>
+<li><strong>Diario Usach</strong> — <a href="https://www.diariousach.cl/actualidad/nacional/p/1049">Nacional - Noticias</a></li>
+<li><strong>la diaria</strong> — <a href="https://radio.ladiaria.com.uy/la-colmena/497">Edición 19 de junio · La Colmena · la diaria Radio</a></li>
+<li><strong>El País Uruguay</strong> — <a href="https://www.elpais.com.uy/vida-actual/crean-diccionario-mental-uruguayo">Crean diccionario mental uruguayo</a></li>
+</ul>
+</section>
+</div>
 
 
 

@@ -20,8 +20,12 @@ website:
         href: publi.qmd
       - text: Proyectos
         href: proyectos.qmd
+      - text: Prensa
+        href: prensa.qmd
       - text: Datos
         href: datos.qmd
+      - text: Charlas
+        href: charlas.qmd
       - text: Blog
         href: blog.qmd
       - text: Sobre mí

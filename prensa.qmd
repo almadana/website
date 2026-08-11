@@ -1,0 +1,12 @@
+---
+title: "Prensa"
+toc: true
+toc-depth: 2
+page-layout: article
+---
+
+Apariciones en medios (notas, entrevistas y coberturas). Ordenadas por fecha.
+
+::: {.pub-list}
+{{< include data/prensa.qmd >}}
+:::

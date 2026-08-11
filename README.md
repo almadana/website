@@ -9,14 +9,17 @@ Sitio estático armado con [Quarto](https://quarto.org): página de presentació
 ├── index.qmd            # Inicio
 ├── publi.qmd            # Publicaciones (incluye data/publications.qmd)
 ├── proyectos.qmd        # Proyectos
+├── prensa.qmd           # Prensa (incluye data/prensa.qmd)
 ├── datos.qmd            # Datos
+├── charlas.qmd          # Charlas
 ├── blog.qmd             # Listado del blog
 ├── about.qmd            # Sobre mí
 ├── styles.scss          # Tema (paleta + tipografía)
 ├── custom.css           # Ajustes finos
 ├── assets/              # Favicon y recursos
-├── data/                # Publicaciones sync desde ORCID
+├── data/                # Publicaciones ORCID + candidatos de prensa
 ├── scripts/sync_orcid.py
+├── scripts/search_prensa.py
 ├── posts/               # Entradas del blog
 └── docs/                # Salida para GitHub Pages (tras render)
 ```
@@ -57,6 +60,20 @@ quarto render publi.qmd
 ```
 
 El script lee el ORCID en `scripts/orcid.yml`, descarga las obras públicas y escribe `data/publications.json` + `data/publications.qmd`. En corridas siguientes informa qué títulos son nuevos o se quitaron.
+
+## Actualizar prensa (candidatos + votos)
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install ddgs pyyaml requests beautifulsoup4
+.venv/bin/python scripts/search_prensa.py search   # Google News + web
+.venv/bin/python scripts/search_prensa.py list     # ver ordenados por fecha
+.venv/bin/python scripts/search_prensa.py vote     # sí/no en consola
+.venv/bin/python scripts/search_prensa.py render   # escribe data/prensa.qmd
+quarto render prensa.qmd
+```
+
+Los candidatos viven en `data/prensa_candidates.json` (y una vista en `.md`). Solo los `vote: yes` salen en la página. Consultas y filtros: `scripts/prensa.yml`.
 
 ## Nueva entrada del blog
 

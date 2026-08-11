@@ -21,6 +21,10 @@ Thumbs.db
 .env
 .env.*
 
+# Entorno local Python (búsqueda de prensa, etc.)
+.venv/
+venv/
+
 # Nota: docs/ SÍ se versiona para GitHub Pages
 # (tras cada `quarto render`)
 

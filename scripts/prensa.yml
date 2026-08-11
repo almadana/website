@@ -1,0 +1,110 @@
+# Búsqueda de apariciones en prensa de Álvaro Cabana (Uruguay, principalmente).
+# Usado por scripts/search_prensa.py
+
+person_names:
+  - "Álvaro Cabana"
+  - "Alvaro Cabana"
+
+# Contextos que refuerzan relevancia académica / profesional
+keywords:
+  - psicología
+  - psicólogo
+  - psicologo
+  - cibpsi
+  - cicada
+  - udelar
+  - lexicón
+  - lexicon
+  - cerebro
+  - lenguaje
+  - "ciencia de datos"
+  - cognitiva
+  - investigación
+  - investigador
+  - professor
+  - profesor
+  - entrevista
+  - universitario
+  - facultad
+
+# Descartar homónimos / ruido obvio (músicos, deportes, etc.)
+block_terms:
+  - "rotten city"
+  - dj
+  - "club gre2"
+  - soundcloud
+  - "resident advisor"
+  - "original mix"
+  - recoba
+  - "álvaro navia"
+  - "alvaro navia"
+  - "chino navarro"
+  - "álvaro delgado"
+  - "álvaro cabanas"
+
+# Dominios de perfil / no-prensa (filtro blando; aún pueden votarse si llegan)
+block_domains:
+  - linkedin.com
+  - researchgate.net
+  - scholar.google
+  - academia.edu
+  - orcid.org
+  - facebook.com
+  - instagram.com
+  - x.com
+  - twitter.com
+  - soundcloud.com
+  - wikipedia.org
+  - misprofesores.com
+  - youtube.com
+  - ra.co
+  - redbull.com
+  - wegow.com
+  - dialnet.unirioja.es
+  - academic.oup.com
+  - kipdf.com
+  - smallworldofwords.org
+  - colibri.udelar.edu.uy
+  - pmb.parlamento.gub.uy
+  - open.spotify.com
+
+# Consultas para Google News RSS (gl=UY)
+google_news_queries:
+  - '"Álvaro Cabana" OR "Alvaro Cabana" (psicología OR psicólogo OR CIBPsi OR CICADA OR Lexicón OR Lexicon OR cerebro OR lenguaje OR UdelaR OR "ciencia de datos")'
+  - '"Álvaro Cabana" OR "Alvaro Cabana" (Uruguay) (entrevista OR investigador OR profesor OR ciencia OR pandemia OR GACH OR GUIAD)'
+  - '"Álvaro Cabana" OR "Alvaro Cabana" (SobreCiencia OR "medios públicos" OR "la diaria" OR "El Observador" OR Sarandí OR Lexicón)'
+  - 'Cabana (Lexicón OR Lexicon) (palabras OR diccionario OR mental OR cerebro)'
+  - '"Álvaro Cabana" site:sobreciencia.uy OR site:ladiaria.com.uy OR site:elobservador.com.uy OR site:radiouruguay.uy OR site:mediospublicos.uy'
+
+# Consultas web generales (DuckDuckGo vía paquete `ddgs`, si está instalado)
+web_queries:
+  - '"Álvaro Cabana" (entrevista OR Lexicón OR CIBPsi OR psicología) Uruguay'
+  - '"Alvaro Cabana" investigador Uruguay entrevista'
+  - 'site:sobreciencia.uy "Álvaro Cabana" OR Cabana CIBPsi'
+  - 'site:ladiaria.com.uy "Álvaro Cabana"'
+  - 'site:elobservador.com.uy "Álvaro Cabana" OR "Alvaro Cabana" Lexicón OR lenguaje OR pandemia'
+  - 'site:diariousach.cl "Álvaro Cabana"'
+  - '"Álvaro Cabana" "diccionario mental"'
+  - '"Álvaro Cabana" "palabras" cerebro OR Lexicón'
+
+# Mapeo dominio → nombre de medio
+media_labels:
+  ladiaria.com.uy: "la diaria"
+  elobservador.com.uy: "El Observador"
+  elpais.com.uy: "El País Uruguay"
+  montevideo.com.uy: "Montevideo Portal"
+  radiouruguay.uy: "Radio Uruguay"
+  mediospublicos.uy: "Medios Públicos"
+  sobreciencia.uy: "SobreCiencia"
+  diariousach.cl: "Diario Usach"
+  sarandi.com.uy: "Radio Sarandí"
+  sarandi690.com.uy: "Radio Sarandí"
+  870.com.uy: "Radio Sarandí 870"
+  clevel.com.uy: "C-Level"
+  redlcc.org: "Red LCC"
+  elpais.com: "El País"
+  anep.edu.uy: "ANEP"
+  gub.uy: "GUB.UY"
+  udelar.edu.uy: "Udelar"
+  psico.edu.uy: "Facultad de Psicología"
+  news.google.com: "Google News"
