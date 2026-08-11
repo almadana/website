@@ -4,6 +4,13 @@ toc: false
 page-layout: article
 ---
 
-Proyectos en curso y finalizados.
+::: {layout-ncol=2}
 
-<!-- Agregá acá tus proyectos. -->
+### Small World of Words
+[![Colecta de datos de asociación libre en Español Rioplatense](./assets/SWOW_Tag_High.png)](https://www.smallworldofwords.org/uy)
+
+### che Norma!
+[![Recursos psicolingüísticos del Español Riplatense](./assets/chenorma.png)](https://www.chenorma.uy)
+
+
+:::

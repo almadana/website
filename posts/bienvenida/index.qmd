@@ -8,7 +8,7 @@ image: ""
 ---
 
 Este sitio tiene un propósito doble: presentar quién soy y dejar un blog
-profesional donde pueda pensar en voz alta.
+profesional donde pueda pensar en voz alta. 
 
 ## Menos panel, más página
 
