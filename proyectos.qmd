@@ -4,13 +4,28 @@ toc: false
 page-layout: article
 ---
 
-::: {layout-ncol=2}
 
-### Small World of Words
+:::: {.charlas-grid}
+
+
+::: {.charla-card}
+
 [![Colecta de datos de asociación libre en Español Rioplatense](./assets/SWOW_Tag_High.png)](https://www.smallworldofwords.org/uy)
 
-### che Norma!
-[![Recursos psicolingüísticos del Español Riplatense](./assets/chenorma.png)](https://www.chenorma.uy)
 
+### Small World of Words
 
+::: {.charla-meta}
+Normas de asociación libre
 :::
+
+Proyecto liderado por Simon de Deyne, busca colectar normas de asociación libre a gran escala en varios idiomas. Nuestra contribución principal es la __Norma de asociación libre para el español rioplatense__, así como estudios que usan estos datos para detectar cambios rápidos en el significado de las palabras causados por la pandemia de COVID-19, entre otros.
+
+::: {.charla-links}
+[Jugar!](https://smallworldofwords.org/es-UY) · [Más info](https://smallworldofwords.org/es-UY/project)
+:::
+:::
+
+
+
+::::  

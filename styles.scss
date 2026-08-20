@@ -367,6 +367,167 @@ main.content {
   }
 }
 
+// Charlas: grilla de tarjetas (simple, sin Bootstrap cards)
+.charlas-grid {
+  display: grid;
+  gap: 1.15rem;
+  margin: 1.5rem 0 0;
+  grid-template-columns: 1fr;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1990px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.charla-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 1.15rem 1.2rem 1.2rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.55);
+  height: 100%;
+  overflow: hidden;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 1.12rem;
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  p {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 0.98rem;
+  }
+
+  // Miniatura al tope: primera imagen del bloque
+  > p:first-child:has(img) {
+    margin: -1.15rem -1.2rem 0.35rem;
+  }
+
+  > p:first-child img {
+    display: block;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  > .figure:first-child,
+  > figure:first-child {
+    margin: -1.15rem -1.2rem 0.35rem;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+
+    figcaption {
+      display: none;
+    }
+  }
+}
+
+// Fondo: misma ![](...) al inicio, estirada detrás del texto
+.charla-card-bg {
+  position: relative;
+  justify-content: flex-end;
+  min-height: 240px;
+  color: #f7f9fb;
+  border-color: rgba(21, 32, 43, 0.25);
+  background-color: var(--ink);
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(
+      180deg,
+      rgba(21, 32, 43, 0.25) 0%,
+      rgba(21, 32, 43, 0.72) 55%,
+      rgba(21, 32, 43, 0.9) 100%
+    );
+    pointer-events: none;
+  }
+
+  > p:first-child:has(img),
+  > .figure:first-child,
+  > figure:first-child {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    z-index: 0;
+  }
+
+  > p:first-child img,
+  > .figure:first-child img,
+  > figure:first-child img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  > :not(:first-child) {
+    position: relative;
+    z-index: 2;
+  }
+
+  h3 {
+    color: #f7f9fb;
+  }
+
+  p {
+    color: rgba(244, 247, 249, 0.88);
+  }
+
+  .charla-meta {
+    color: rgba(160, 210, 205, 0.95);
+  }
+
+  .charla-links a {
+    color: #f7f9fb;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.charla-meta {
+  margin: 0;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--teal);
+  letter-spacing: 0.01em;
+}
+
+.charla-links {
+  margin-top: auto;
+  padding-top: 0.35rem;
+  font-size: 0.92rem;
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      border-bottom-color: currentColor;
+    }
+  }
+}
+
 // Posts: metadata más respirada
 .quarto-title-meta {
   font-size: 0.92rem;

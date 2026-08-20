@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-756d4b23e64f889edc15953ad46841f3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-08c857150c16c3501c153afe634ede96.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -181,7 +181,48 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Charlas, conferencias y presentaciones.</p>
-<!-- Agregá acá el listado de charlas y materiales. -->
+<!--
+  Imagen: siempre con ![](...) al inicio del bloque
+  (así Quarto copia el archivo; no uses url() en CSS).
+
+  Miniatura (default): ::: {.charla-card}
+  Fondo:              ::: {.charla-card .charla-card-bg}
+-->
+<div class="charlas-grid">
+<div class="charla-card">
+<p><img src="assets/SWOW_Tag_High.png" class="img-fluid" alt="Gráfico del Small World of Words"></p>
+<section id="título-de-la-charla" class="level3">
+<h3 class="anchored" data-anchor-id="título-de-la-charla">Título de la charla</h3>
+<div class="charla-meta">
+<p>2024 · Congreso / evento · Montevideo</p>
+</div>
+<p>Una línea breve sobre de qué se trató.</p>
+<div class="charla-links">
+<p><a href="#" target="_blank">Slides</a> · <a href="#" target="_blank">Video</a></p>
+</div>
+</section>
+</div>
+<div class="charla-card charla-card-bg">
+<p><img src="assets/chenorma.png" class="img-fluid" alt="Chenorma"></p>
+<section id="charla-con-imagen-de-fondo" class="level3">
+<h3 class="anchored" data-anchor-id="charla-con-imagen-de-fondo">Charla con imagen de fondo</h3>
+<div class="charla-meta">
+<p>2023 · Seminario · Udelar</p>
+</div>
+<p>El texto va sobre un degradé oscuro para que se lea bien.</p>
+<div class="charla-links">
+<p><a href="#" target="_blank">PDF</a></p>
+</div>
+</section>
+</div>
+<section id="sin-imagen" class="level3 charla-card">
+<h3 class="anchored" data-anchor-id="sin-imagen">Sin imagen</h3>
+<div class="charla-meta">
+<p>2022 · Workshop</p>
+</div>
+<p>También se puede dejar la tarjeta solo con texto.</p>
+</section>
+</div>
 
 
 
