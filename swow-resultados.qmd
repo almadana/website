@@ -1,0 +1,192 @@
+---
+title: "Resultados del proyecto SWOW"
+toc: false
+page-layout: full
+description: "Qué aprendimos sobre las palabras, sus conexiones y sus cambios a partir del proyecto Small World of Words en español rioplatense."
+---
+
+::: {.swow-page}
+
+::: {.swow-breadcrumb}
+[Proyectos](proyectos.qmd) / Small World of Words
+:::
+
+::: {.swow-hero}
+::: {.swow-hero__copy}
+<p class="swow-kicker">COMUNICACIÓN DE RESULTADOS</p>
+
+# Resultados del proyecto Small World of Words
+
+Si alguien lee **“mate”**, puede responder *yerba*, *termo* o *amargo*. Juntamos miles de respuestas de ese tipo para estudiar cómo se relacionan las palabras en el español rioplatense.
+
+[Ver los resultados](#hallazgos){.btn-main} [Participar](https://smallworldofwords.org/es-UY){.btn-ghost}
+:::
+
+::: {.swow-hero__visual}
+![](assets/swow-red-semantica.png){fig-alt="Ilustración de una red de conceptos conectados que cambia a medida que incorpora experiencias sociales, tecnológicas y sanitarias."}
+:::
+:::
+
+::: {.swow-strip}
+::: {.swow-stat}
+<strong>13.000+</strong>
+
+palabras estudiadas
+:::
+::: {.swow-stat}
+<strong>3,6 millones</strong>
+
+de respuestas
+:::
+::: {.swow-stat}
+<strong>64.598</strong>
+
+participantes válidos
+:::
+:::
+
+::: {.swow-intro}
+## Qué hacemos con las asociaciones
+
+En SWOW cada participante ve una palabra y escribe las tres primeras que le vienen a la mente. Con esas respuestas construimos una **red**: cada palabra es un punto y cada asociación es una conexión. Si una respuesta se repite mucho, la conexión tiene más peso.
+
+La red no funciona como un diccionario. Describe relaciones entre palabras tal como aparecen en las respuestas de un grupo de personas. Sirve para estudiar cómo organizamos los significados y cómo esas relaciones cambian con el tiempo.
+:::
+
+::: {.swow-article-nav}
+<span>PUBLICACIONES</span>
+
+[Normas para español rioplatense](#articulo-normas) [Cambios durante la pandemia](#articulo-pandemia) [Ambigüedad léxica](#articulo-ambiguedad)
+:::
+
+::: {#hallazgos .swow-findings}
+## Resultados publicados
+
+::: {#articulo-normas .swow-result}
+::: {.swow-result__number}
+2023
+:::
+::: {.swow-result__body}
+### Normas de asociación para el español rioplatense
+
+<p class="swow-citation">Cabana et al. (2023) · <em>The “Small World of Words” free association norms for Rioplatense Spanish</em></p>
+
+Construimos la base de asociaciones más extensa disponible para el español: más de 13.000 palabras y 3,6 millones de respuestas, recogidas principalmente en Uruguay y Argentina. Las asociaciones dependen de la variedad del idioma y del contexto cultural, por lo que no siempre alcanza con traducir datos obtenidos en otros lugares.
+
+Las medidas calculadas a partir de la red ayudan a predecir qué tan rápido reconocemos una palabra. La red también reproduce los juicios humanos de similitud mejor que varios modelos entrenados solamente con textos.
+
+::: {.swow-takeaway}
+Los datos recogidos entre hablantes de español rioplatense aportan información que no aparece en normas de otras lenguas o variedades.
+:::
+
+[Leer la publicación](https://doi.org/10.3758/s13428-023-02070-z){.swow-paper-link}
+:::
+::: {.swow-result__graphic .swow-network-demo aria-label="Ejemplo de una red de asociaciones alrededor de la palabra mate"}
+<i class="graph-edge graph-edge--na" aria-hidden="true"></i>
+<i class="graph-edge graph-edge--nb" aria-hidden="true"></i>
+<i class="graph-edge graph-edge--nc" aria-hidden="true"></i>
+<i class="graph-edge graph-edge--nd" aria-hidden="true"></i>
+<div class="network-word network-word--center">mate</div>
+<div class="network-word network-word--a">yerba</div>
+<div class="network-word network-word--b">termo</div>
+<div class="network-word network-word--c">amargo</div>
+<div class="network-word network-word--d">ronda</div>
+:::
+:::
+
+::: {#articulo-pandemia .swow-result .swow-result--reverse}
+::: {.swow-result__number}
+2023
+:::
+::: {.swow-result__body}
+### Cambios semánticos durante la pandemia
+
+<p class="swow-citation">Laurino et al. (2023) · <em>The Pandemic in Words: Tracking Fast Semantic Changes via a Large-Scale Word Association Task</em></p>
+
+Comparamos respuestas recogidas antes y durante la pandemia de COVID-19. Las palabras relacionadas con la pandemia incorporaron más asociaciones nuevas y cambiaron sus conexiones. **Virtual**, por ejemplo, apareció menos asociada con *imaginario* o *irreal* y más con *escuela*, *trabajo* y *Zoom*.
+
+También cambió el peso relativo de algunos sentidos: **inmunidad** quedó más asociada con la salud y **ensayo** con la investigación científica. Esos cambios aparecieron en un período corto y fueron consistentes con las transformaciones de la vida cotidiana.
+
+::: {.swow-takeaway}
+En este caso, las asociaciones permitieron detectar cambios en el uso y el significado de las palabras en un período relativamente corto.
+:::
+
+[Leer la publicación](https://doi.org/10.1162/opmi_a_00081){.swow-paper-link}
+:::
+::: {.swow-result__graphic .swow-shift aria-label="Cambio de asociaciones de la palabra virtual antes y durante la pandemia"}
+<div class="shift-era"><span>ANTES</span><b>virtual</b><small>imaginario · irreal · intangible</small></div>
+<div class="shift-arrow" aria-hidden="true">→</div>
+<div class="shift-era shift-era--after"><span>DURANTE</span><b>virtual</b><small>escuela · trabajo · Zoom</small></div>
+:::
+:::
+
+::: {#articulo-ambiguedad .swow-result}
+::: {.swow-result__number}
+2026
+:::
+::: {.swow-result__body}
+### Una medida automática de la ambigüedad
+
+<p class="swow-citation">Iglesias et al. (2026) · <em>Automatic quantification of lexical ambiguity using large-scale word association data</em></p>
+
+Las respuestas a una palabra ambigua tienden a formar grupos dentro de la red. Un algoritmo puede detectar esos grupos —o comunidades— y estimar cuántos sentidos aparecen, cuán diferentes son y cuál es el más frecuente.
+
+El método permite analizar muchas palabras sin pedirle a cada participante que enumere definiciones. Sus medidas también ayudan a explicar la velocidad y la precisión con que reconocemos palabras, incluso cuando se consideran otras medidas de ambigüedad.
+
+::: {.swow-takeaway}
+La estructura de las asociaciones contiene información sobre los distintos sentidos de una palabra y sobre la frecuencia relativa de esos sentidos.
+:::
+
+[Leer la publicación](https://doi.org/10.3758/s13428-026-03050-9){.swow-paper-link}
+:::
+::: {.swow-result__graphic .swow-ambiguity aria-label="Una palabra central conectada con tres grupos de significado"}
+<i class="graph-edge graph-edge--ao" aria-hidden="true"></i>
+<i class="graph-edge graph-edge--at" aria-hidden="true"></i>
+<i class="graph-edge graph-edge--ah" aria-hidden="true"></i>
+<div class="ambiguity-core">banco</div>
+<div class="meaning meaning--one">dinero<br><small>cuenta · préstamo</small></div>
+<div class="meaning meaning--two">asiento<br><small>plaza · madera</small></div>
+<div class="meaning meaning--three">peces<br><small>mar · cardumen</small></div>
+:::
+:::
+:::
+
+::: {.swow-why}
+::: {.swow-why__title}
+## Algunas aplicaciones
+:::
+::: {.swow-why__grid}
+::: {.swow-why__item}
+### Procesamiento de palabras
+Las redes permiten estudiar cómo almacenamos, relacionamos y recuperamos significados, y contrastar esas medidas con el comportamiento en tareas experimentales.
+:::
+::: {.swow-why__item}
+### Cambio lingüístico
+La comparación de datos recogidos en distintos momentos permite examinar cómo una crisis, una tecnología o un cambio social modifica el uso de ciertas palabras.
+:::
+::: {.swow-why__item}
+### Recursos para el español rioplatense
+Los datos pueden usarse en investigación, educación y tecnologías del lenguaje que necesiten representar esta variedad del español.
+:::
+:::
+:::
+
+::: {.swow-cta}
+## Participá en SWOW
+
+La colecta sigue abierta. Participar lleva pocos minutos y ayuda a ampliar los datos disponibles sobre el español rioplatense.
+
+[Jugar a Small World of Words](https://smallworldofwords.org/es-UY){.btn-main} [Volver a proyectos](proyectos.qmd){.btn-ghost}
+:::
+
+::: {.swow-notes}
+### Fuentes
+
+- Cabana, A. et al. (2023). *The “Small World of Words” free association norms for Rioplatense Spanish*. Behavior Research Methods.
+- Laurino, J. et al. (2023). *The Pandemic in Words: Tracking Fast Semantic Changes via a Large-Scale Word Association Task*. Open Mind.
+- Iglesias, I. et al. (2026). *Automatic quantification of lexical ambiguity using large-scale word association data*. Behavior Research Methods.
+
+Las cifras y conclusiones de esta página resumen esas publicaciones. Los ejemplos traducen los resultados a un lenguaje de divulgación; no sustituyen la lectura de los artículos.
+:::
+
+:::

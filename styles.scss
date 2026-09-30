@@ -439,6 +439,10 @@ main.content {
   }
 }
 
+.charla-card img.cuanti-card-image {
+  object-position: center top;
+}
+
 // Fondo: misma ![](...) al inicio, estirada detrás del texto
 .charla-card-bg {
   position: relative;
@@ -553,3 +557,237 @@ main.content {
     transition: none !important;
   }
 }
+
+// Divulgación SWOW
+.swow-page {
+  --swow-coral: #db624a;
+  --swow-yellow: #e0a426;
+  --swow-blue: #365f91;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
+}
+
+.swow-breadcrumb {
+  padding: 1rem 0 1.5rem;
+  color: var(--ink-soft);
+  font-size: .9rem;
+  a { color: inherit; text-decoration: none; }
+}
+
+.swow-hero {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+  min-height: 68vh;
+  padding: 2rem 0 4rem;
+  @media (min-width: 800px) { grid-template-columns: .92fr 1.08fr; }
+}
+
+.swow-kicker {
+  color: var(--teal);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  margin-bottom: 1rem;
+}
+
+.swow-hero h1 {
+  font-size: clamp(2.8rem, 6.2vw, 5.6rem);
+  line-height: .98;
+  max-width: 10ch;
+  margin: 0 0 1.4rem;
+}
+
+.swow-hero__copy > p:not(.swow-kicker) {
+  color: var(--ink-soft);
+  font-size: clamp(1.08rem, 2vw, 1.25rem);
+  max-width: 34rem;
+}
+
+.swow-hero__copy .btn-main { margin: .7rem .65rem .35rem 0; }
+.swow-hero__visual img { width: 100%; border: 1px solid var(--line); }
+.swow-hero__visual figure { margin: 0; }
+
+.swow-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 6rem;
+  @media (max-width: 620px) { grid-template-columns: 1fr; }
+}
+
+.swow-stat { padding: 1.4rem; text-align: center; color: var(--ink-soft); }
+.swow-stat + .swow-stat { border-left: 1px solid var(--line); }
+.swow-stat strong { display: block; font-family: $font-family-serif; font-size: clamp(1.5rem, 3vw, 2.25rem); color: var(--ink); }
+@media (max-width: 620px) { .swow-stat + .swow-stat { border-left: 0; border-top: 1px solid var(--line); } }
+
+.swow-intro { max-width: 760px; margin: 0 auto 7rem; text-align: center; }
+.swow-intro h2, .swow-findings > h2 { font-size: clamp(2rem, 4vw, 3.3rem); }
+.swow-intro p { color: var(--ink-soft); font-size: 1.15rem; }
+.swow-findings > h2 { text-align: center; margin-bottom: 4rem; }
+
+.swow-article-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1.4rem;
+  align-items: center;
+  margin: -3.5rem 0 6rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  font-size: .9rem;
+}
+.swow-article-nav span { font-size: .7rem; letter-spacing: .12em; font-weight: 700; color: var(--ink-soft); }
+.swow-article-nav p { display: contents; }
+.swow-article-nav a { text-decoration: none; font-weight: 600; }
+
+.swow-result {
+  position: relative;
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  padding: 4rem 0;
+  border-top: 1px solid var(--line);
+  @media (min-width: 800px) { grid-template-columns: 5rem 1.1fr .9fr; gap: 3rem; }
+}
+.swow-result__number { align-self: start; font-family: $font-family-serif; color: var(--teal); font-size: 1.2rem; }
+.swow-result__body h3 { font-size: clamp(1.7rem, 3vw, 2.5rem); }
+.swow-result__body p { color: var(--ink-soft); }
+.swow-result__body .swow-citation { margin: -.35rem 0 1.35rem; font-size: .82rem; line-height: 1.4; color: var(--teal-deep); }
+.swow-takeaway { border-left: 3px solid var(--swow-coral); padding: .1rem 0 .1rem 1rem; margin: 1.5rem 0; }
+.swow-takeaway p { color: var(--ink) !important; }
+.swow-paper-link { font-size: .92rem; font-weight: 600; }
+
+.swow-result__graphic { position: relative; isolation: isolate; min-height: 330px; background: #f8faf9; border: 1px solid var(--line); overflow: hidden; }
+.swow-network-demo { background: radial-gradient(circle at center, #dcebea 0%, #f8faf9 48%, #f8faf9 100%); }
+.network-word, .ambiguity-core, .meaning { position: absolute; display: grid; place-items: center; border-radius: 50%; text-align: center; z-index: 2; opacity: 1; }
+.graph-edge { position: absolute; left: 50%; top: 50%; height: 2px; background: #9aa5a8; transform-origin: left center; z-index: 1; }
+.graph-edge--na { width: 37%; transform: rotate(212deg); }
+.graph-edge--nb { width: 38%; transform: rotate(-34deg); }
+.graph-edge--nc { width: 36%; transform: rotate(140deg); }
+.graph-edge--nd { width: 36%; transform: rotate(39deg); }
+.network-word--center { width: 96px; height: 96px; left: calc(50% - 48px); top: calc(50% - 48px); background: var(--teal); color: white; font-family: $font-family-serif; font-size: 1.25rem; }
+.network-word--a, .network-word--b, .network-word--c, .network-word--d { width: 70px; height: 70px; background: #fff; border: 2px solid var(--swow-yellow); box-shadow: 0 2px 8px rgba(21,32,43,.08); }
+.network-word--a { left: 9%; top: 17%; }
+.network-word--b { right: 8%; top: 15%; }
+.network-word--c { left: 12%; bottom: 12%; }
+.network-word--d { right: 11%; bottom: 13%; }
+
+.swow-shift { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding: 1.25rem; gap: .7rem; background: linear-gradient(110deg, rgba(54,95,145,.08), rgba(219,98,74,.1)); }
+.shift-era { text-align: center; }
+.shift-era span { display: block; font-size: .7rem; letter-spacing: .12em; color: var(--swow-blue); font-weight: 700; }
+.shift-era b { display: block; font-family: $font-family-serif; font-size: 1.5rem; margin: .7rem 0; }
+.shift-era small { color: var(--ink-soft); line-height: 1.5; }
+.shift-era--after span { color: var(--swow-coral); }
+.shift-arrow { color: var(--teal); font-size: 2rem; }
+
+.swow-ambiguity { background: radial-gradient(circle at center, #f4ead0 0%, #f8faf9 62%, #f8faf9 100%); }
+.ambiguity-core { width: 90px; height: 90px; left: calc(50% - 45px); top: calc(50% - 45px); background: var(--ink); color: white; font-family: $font-family-serif; }
+.meaning { width: 105px; height: 105px; padding: .5rem; background: #fff; border: 2px solid var(--teal); line-height: 1.1; box-shadow: 0 2px 8px rgba(21,32,43,.08); }
+.meaning small { color: var(--ink-soft); font-size: .7rem; }
+.meaning--one { left: 5%; top: 8%; border-color: var(--swow-blue); }
+.meaning--two { right: 5%; top: 8%; border-color: var(--swow-coral); }
+.meaning--three { left: calc(50% - 52px); bottom: 3%; border-color: var(--swow-yellow); }
+.graph-edge--ao { width: 39%; transform: rotate(215deg); }
+.graph-edge--at { width: 39%; transform: rotate(-35deg); }
+.graph-edge--ah { width: 27%; transform: rotate(90deg); }
+
+.swow-why { margin: 6rem calc(50% - 50vw); padding: 5rem max(1.25rem, calc((100vw - 1120px)/2)); background: var(--ink); color: var(--foam); }
+.swow-why h2, .swow-why h3 { color: var(--foam); }
+.swow-why__title { max-width: 560px; }
+.swow-why__grid { display: grid; gap: 2rem; margin-top: 2.5rem; @media(min-width: 700px) { grid-template-columns: repeat(3,1fr); } }
+.swow-why__item { border-top: 2px solid var(--teal); padding-top: 1.2rem; }
+.swow-why__item p { color: rgba(244,247,249,.76); }
+.swow-cta { max-width: 760px; margin: 6rem auto; text-align: center; }
+.swow-cta h2 { font-size: clamp(2rem,4vw,3.2rem); }
+.swow-cta .btn-main { margin: .7rem .65rem .35rem 0; }
+.swow-notes { border-top: 1px solid var(--line); padding-top: 2rem; color: var(--ink-soft); font-size: .88rem; }
+.swow-notes h3 { font-size: 1rem; }
+
+body:has(.swow-page) #title-block-header { display: none; }
+body:has(.swow-page) main.content { max-width: none; padding-left: 0; padding-right: 0; }
+
+// Proyecto Cuanti
+.cuanti-page {
+  --cuanti-violet: #6653a3;
+  --cuanti-lavender: #e7e1f3;
+  --cuanti-green: #4d8870;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
+}
+.cuanti-hero { display: grid; gap: 3rem; align-items: center; min-height: 70vh; padding: 2rem 0 4rem; }
+@media (min-width: 800px) { .cuanti-hero { grid-template-columns: 1.05fr .95fr; } }
+.cuanti-kicker { color: var(--cuanti-violet); font-size: .78rem; font-weight: 700; letter-spacing: .14em; }
+.cuanti-hero h1 { max-width: 11ch; margin: .75rem 0 1.4rem; font-size: clamp(2.8rem, 6vw, 5.4rem); line-height: 1; }
+.cuanti-hero__copy > p:not(.cuanti-kicker) { max-width: 39rem; color: var(--ink-soft); font-size: 1.12rem; }
+.cuanti-hero__copy .btn-main { margin: .7rem .65rem .35rem 0; background: var(--cuanti-violet); border-color: var(--cuanti-violet); }
+.cuanti-hero__diagram { position: relative; min-height: 410px; border: 1px solid var(--line); background: radial-gradient(circle, var(--cuanti-lavender) 0 19%, #f8faf9 20% 100%); }
+.cuanti-core, .cuanti-orbit { position: absolute; display: grid; place-items: center; text-align: center; border-radius: 50%; }
+.cuanti-core { z-index: 2; left: calc(50% - 65px); top: calc(50% - 65px); width: 130px; height: 130px; color: #fff; background: var(--cuanti-violet); font-family: $font-family-serif; font-size: 1.2rem; }
+.cuanti-orbit { z-index: 1; width: 88px; height: 88px; background: #fff; border: 2px solid var(--cuanti-green); box-shadow: 0 3px 12px rgba(21,32,43,.08); font-weight: 600; font-size: .9rem; }
+.cuanti-orbit--book { left: 7%; top: 12%; }
+.cuanti-orbit--lesson { right: 7%; top: 12%; }
+.cuanti-orbit--panel { left: 8%; bottom: 10%; }
+.cuanti-orbit--practice { right: 7%; bottom: 10%; }
+.cuanti-edge { position: absolute; z-index: 0; left: 50%; top: 50%; width: 39%; height: 2px; background: #9aa5a8; transform-origin: left center; }
+.cuanti-edge--book { transform: rotate(215deg); }
+.cuanti-edge--lesson { transform: rotate(-35deg); }
+.cuanti-edge--panel { transform: rotate(145deg); }
+.cuanti-edge--practice { transform: rotate(35deg); }
+.cuanti-facts { display: grid; margin-bottom: 6rem; border-block: 1px solid var(--line); }
+@media (min-width: 650px) { .cuanti-facts { grid-template-columns: repeat(3,1fr); } }
+.cuanti-facts div { padding: 1.4rem; text-align: center; }
+.cuanti-facts div + div { border-left: 1px solid var(--line); }
+.cuanti-facts strong { display: block; color: var(--ink); font-family: $font-family-serif; font-size: 2rem; }
+.cuanti-facts span { color: var(--ink-soft); font-size: .92rem; }
+.cuanti-copy { max-width: 780px; margin: 0 auto 7rem; }
+.cuanti-copy h2, .cuanti-resources > h2, .cuanti-principles > h2 { font-size: clamp(2rem,4vw,3.2rem); }
+.cuanti-copy p { color: var(--ink-soft); font-size: 1.12rem; }
+.cuanti-data-points { display: grid; margin: -4.5rem 0 7rem; border: 1px solid var(--line); background: #f8faf9; }
+@media (min-width: 650px) { .cuanti-data-points { grid-template-columns: repeat(3,1fr); } }
+.cuanti-data-points div { padding: 1.4rem 1.5rem; }
+.cuanti-data-points div + div { border-left: 1px solid var(--line); }
+.cuanti-data-points strong { display: block; margin-bottom: .3rem; color: var(--cuanti-violet); font-family: $font-family-serif; font-size: 1.35rem; }
+.cuanti-data-points span { color: var(--ink-soft); font-size: .9rem; line-height: 1.45; }
+@media (max-width: 649px) { .cuanti-data-points div + div { border-left: 0; border-top: 1px solid var(--line); } }
+.cuanti-team { display: grid; gap: 2rem; margin: -2rem 0 7rem; padding: 2.5rem 0; border-block: 1px solid var(--line); }
+@media (min-width: 760px) { .cuanti-team { grid-template-columns: 1fr 1fr 2fr; align-items: start; } }
+.cuanti-team > h2 { margin: 0; font-size: clamp(1.8rem,3vw,2.5rem); }
+.cuanti-team span { display: block; margin-bottom: .6rem; color: var(--cuanti-violet); font-size: .7rem; font-weight: 700; letter-spacing: .12em; }
+.cuanti-team__lead h3 { margin: 0; font-family: $font-family-sans-serif; font-size: 1.05rem; font-weight: 600; }
+.cuanti-team__members ul { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .35rem 1.5rem; margin: 0; padding: 0; list-style: none; }
+.cuanti-team__members li { color: var(--ink-soft); }
+@media (max-width: 520px) { .cuanti-team__members ul { grid-template-columns: 1fr; } }
+.cuanti-resources { margin-bottom: 7rem; }
+.cuanti-resources > p { max-width: 700px; color: var(--ink-soft); }
+.cuanti-resource-grid { display: grid; gap: 1px; margin-top: 2.5rem; background: var(--line); border: 1px solid var(--line); }
+@media (min-width: 760px) { .cuanti-resource-grid { grid-template-columns: repeat(2,1fr); } }
+.cuanti-resource { position: relative; padding: 2rem; background: #f8faf9; }
+.cuanti-resource__index { color: var(--cuanti-violet); font-size: .75rem; font-weight: 700; letter-spacing: .12em; }
+.cuanti-resource h3 { margin-top: .55rem; font-size: 1.6rem; }
+.cuanti-resource p { color: var(--ink-soft); }
+.cuanti-resource p:last-child { color: var(--cuanti-violet); font-size: .9rem; font-weight: 600; }
+.cuanti-resource--video { background: linear-gradient(120deg, #f2eef8, #f8faf9 70%); }
+@media (min-width: 760px) { .cuanti-resource--video { grid-column: 1 / -1; padding-right: min(22%, 15rem); } }
+.cuanti-evidence { display: grid; gap: 3rem; margin: 0 calc(50% - 50vw) 7rem; padding: 5rem max(1.25rem, calc((100vw - 1120px)/2)); color: var(--foam); background: var(--ink); }
+@media (min-width: 800px) { .cuanti-evidence { grid-template-columns: 1fr 280px; } }
+.cuanti-evidence h2 { color: var(--foam); font-size: clamp(2rem,4vw,3rem); }
+.cuanti-evidence__main p { color: rgba(244,247,249,.78); }
+.cuanti-evidence__aside { align-self: start; padding: 1.2rem 0 0 1.5rem; border-left: 2px solid var(--cuanti-green); color: rgba(244,247,249,.8); }
+.cuanti-evidence__aside span { display: block; margin-bottom: .8rem; color: #a7d2c0; font-size: .7rem; font-weight: 700; letter-spacing: .14em; }
+.cuanti-principles { margin-bottom: 7rem; }
+.cuanti-principles__grid { display: grid; gap: 2rem; margin-top: 2.5rem; }
+@media (min-width: 700px) { .cuanti-principles__grid { grid-template-columns: repeat(3,1fr); } }
+.cuanti-principles__grid > div { padding-top: 1.2rem; border-top: 2px solid var(--cuanti-violet); }
+.cuanti-principles__grid h3 { font-size: 1.3rem; }
+.cuanti-principles__grid p { color: var(--ink-soft); }
+.cuanti-cta { max-width: 760px; margin: 0 auto 5rem; text-align: center; }
+.cuanti-cta h2 { font-size: clamp(2rem,4vw,3.1rem); }
+.cuanti-cta .btn-main { margin: .7rem .65rem .35rem 0; background: var(--cuanti-violet); border-color: var(--cuanti-violet); }
+.cuanti-notes { padding-top: 1.5rem; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: .86rem; }
+body:has(.cuanti-page) #title-block-header { display: none; }
+body:has(.cuanti-page) main.content { max-width: none; padding-left: 0; padding-right: 0; }
+@media (max-width: 649px) { .cuanti-facts div + div { border-left: 0; border-top: 1px solid var(--line); } }

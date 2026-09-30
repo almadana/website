@@ -1,0 +1,196 @@
+---
+title: "Proyecto Cuanti"
+toc: false
+page-layout: full
+description: "Recursos abiertos y modalidades de enseñanza para aprender métodos cuantitativos en Psicología."
+---
+
+::: {.cuanti-page}
+
+::: {.swow-breadcrumb}
+[Proyectos](proyectos.qmd) / Cuanti
+:::
+
+::: {.cuanti-hero}
+::: {.cuanti-hero__copy}
+<p class="cuanti-kicker">ENSEÑANZA DE MÉTODOS CUANTITATIVOS</p>
+
+# Estadística para estudiantes de Psicología
+
+Cuanti reúne los materiales y las propuestas de enseñanza que desarrollamos para *Métodos y Técnicas Cuantitativas*, una materia obligatoria de segundo año de la Licenciatura en Psicología de la Universidad de la República.
+
+La idea es bastante sencilla: usar el tiempo de clase para trabajar con problemas y datos, y dejar disponibles los contenidos expositivos, las simulaciones y las herramientas de análisis para que cada estudiante pueda volver a ellos cuando los necesite.
+
+[Explorar Cuanti](https://cuanti.psico.edu.uy){.btn-main} [Ver los recursos](#recursos){.btn-ghost}
+:::
+
+::: {.cuanti-hero__diagram aria-label="Esquema del proyecto Cuanti"}
+<i class="cuanti-edge cuanti-edge--book" aria-hidden="true"></i>
+<i class="cuanti-edge cuanti-edge--lesson" aria-hidden="true"></i>
+<i class="cuanti-edge cuanti-edge--panel" aria-hidden="true"></i>
+<i class="cuanti-edge cuanti-edge--practice" aria-hidden="true"></i>
+<div class="cuanti-orbit cuanti-orbit--book">Libro</div>
+<div class="cuanti-orbit cuanti-orbit--lesson">Lecciones</div>
+<div class="cuanti-orbit cuanti-orbit--panel">Panel</div>
+<div class="cuanti-orbit cuanti-orbit--practice">Prácticos</div>
+<div class="cuanti-core">preguntas<br>y datos</div>
+:::
+:::
+
+::: {.cuanti-facts}
+<div><strong>2.º año</strong><span>Licenciatura en Psicología</span></div>
+<div><strong>≈ 1200</strong><span>matriculaciones por año</span></div>
+<div><strong>2018–</strong><span>desarrollo continuo</span></div>
+:::
+
+::: {.cuanti-copy}
+## Enseñar estadística en grupos grandes
+
+Para muchos estudiantes, esta materia es el primer contacto sistemático con la estadística. También puede ser un curso difícil: se dicta en grupos numerosos, hay poco tiempo para acompañar procesos individuales y no siempre resulta evidente qué lugar ocupan los métodos cuantitativos en el trabajo de un psicólogo.
+
+El proyecto combina recursos asincrónicos con seminarios en grupos más pequeños. Antes de la clase, los estudiantes pueden trabajar con textos, videos, lecciones y ejercicios; durante el encuentro, ese material se usa para analizar datos, discutir decisiones y resolver problemas. No se trata solamente de mover una exposición fuera del aula, sino de reservar el tiempo compartido para las tareas que se benefician de la discusión con pares y docentes.
+
+Una parte importante de la propuesta está en los datos. Trabajamos con **datos reales**, vinculados con preguntas que pueden interesar a estudiantes de **Psicología** y, siempre que es posible, producidos en **Uruguay**. El contexto no se agrega después para adornar un ejercicio: permite entender de dónde salió la información, qué representa y por qué podría valer la pena analizarla.
+:::
+
+::: {.cuanti-data-points}
+<div><strong>Reales</strong><span>No son números inventados para que una cuenta dé bien.</span></div>
+<div><strong>Relevantes</strong><span>Parten de preguntas y problemas cercanos a la Psicología.</span></div>
+<div><strong>De Uruguay</strong><span>Ayudan a trabajar con fenómenos y referencias del contexto local.</span></div>
+:::
+
+::: {.cuanti-team}
+## Equipo
+
+::: {.cuanti-team__lead}
+<span>RESPONSABLE</span>
+
+### Álvaro Cabana
+:::
+
+::: {.cuanti-team__members}
+<span>INTEGRANTES</span>
+
+- Clementina Tomás
+- Emilia Flo
+- Camila Zugarramurdi
+- Ignacio Esetvan
+- Sebastián Morales
+- Santiago González Sganga
+:::
+:::
+
+::: {#recursos .cuanti-resources}
+## Los recursos
+
+Todos los componentes se pueden consultar desde [cuanti.psico.edu.uy](https://cuanti.psico.edu.uy). El código y los materiales fuente también están disponibles públicamente, de modo que otros equipos docentes puedan reutilizarlos completos, seleccionar una actividad o adaptarlos a las necesidades de otro curso.
+
+::: {.cuanti-resource-grid}
+::: {.cuanti-resource}
+<span class="cuanti-resource__index">01</span>
+
+### Libro
+
+Una adaptación al español de *Answering Questions with Data*, ampliada para el curso. Presenta estadística descriptiva, probabilidad, inferencia, pruebas *t*, chi cuadrado y ANOVA, con ejemplos orientados a Psicología.
+
+[Leer el libro](https://cuanti.psico.edu.uy/libro/) · [Repositorio](https://github.com/almadana/libro_cuanti)
+:::
+
+::: {.cuanti-resource}
+<span class="cuanti-resource__index">02</span>
+
+### Lecciones interactivas
+
+Recorridos breves que parten de una pregunta. Primero se propone una predicción; después aparecen los datos y, recién cuando hace falta, la herramienta estadística. Las interacciones sirven para comparar, clasificar o simular, no solamente para ilustrar el texto.
+
+[Abrir las lecciones](https://cuanti.psico.edu.uy/lecciones/) · [Repositorio](https://github.com/almadana/lecciones_cuanti)
+:::
+
+::: {.cuanti-resource}
+<span class="cuanti-resource__index">03</span>
+
+### Panel de análisis
+
+Una aplicación desarrollada en R y Shiny para cargar datos, construir visualizaciones y realizar análisis estadísticos desde el navegador. Permite explorar los procedimientos del curso sin que el manejo de un programa sea el primer obstáculo.
+
+[Usar el panel](https://cuanti.psico.edu.uy/panel) · [Repositorio](https://github.com/almadana/shinyCuanti)
+:::
+
+::: {.cuanti-resource}
+<span class="cuanti-resource__index">04</span>
+
+### Prácticos
+
+Ejercicios y pautas de trabajo para los seminarios. Los materiales articulan los conceptos del curso con actividades de análisis e interpretación, y ofrecen una base común para el trabajo de los distintos grupos docentes.
+
+[Ver los prácticos](https://cuanti.psico.edu.uy/practicos) · [Repositorio](https://github.com/clementinatomas/practicuanti)
+:::
+
+::: {.cuanti-resource .cuanti-resource--video}
+<span class="cuanti-resource__index">05</span>
+
+### Videos y animaciones
+
+Una serie de videos expositivos sobre los contenidos del curso, pensados para el trabajo asincrónico. Pusimos especial atención en las animaciones: para producirlas usamos [Manim](https://www.manim.community/), una biblioteca de Python para crear animaciones matemáticas, y también incorporamos chatbots conversacionales como herramientas de apoyo durante el proceso. A diferencia de los demás componentes, el código de estos materiales no está disponible públicamente.
+
+[Ver la lista de reproducción](https://www.youtube.com/playlist?list=PLQRHe0Sf8EkzrzYeffIc98YYxWol8NNAx)
+:::
+:::
+:::
+
+::: {.cuanti-evidence}
+::: {.cuanti-evidence__main}
+## De los recursos a una modalidad de enseñanza
+
+El desarrollo comenzó con un proyecto financiado por la Comisión Sectorial de Enseñanza (CSE) en 2018. En esa etapa se crearon las primeras versiones de las lecciones y el panel, y se implementaron seminarios como alternativa a las clases plenarias.
+
+En la experiencia de 2019, los estudiantes de seminarios asistieron más, valoraron mejor la posibilidad de plantear dudas y mostraron un mejor desempeño en el parcial que quienes asistieron a los plenarios. Estos resultados motivaron una segunda etapa, financiada en la convocatoria de Innovaciones Educativas 2023 de la CSE.
+
+Ese segundo proyecto se propuso consolidar la modalidad de aula invertida, ampliar los recursos interactivos, producir materiales audiovisuales y evaluar su relación con el rendimiento, la motivación, la autorregulación y las actitudes hacia la estadística.
+:::
+
+::: {.cuanti-evidence__aside}
+<span>FINANCIACIÓN</span>
+
+**Comisión Sectorial de Enseñanza**  
+Universidad de la República
+
+Proyectos de innovación educativa 2018 y 2023.
+:::
+:::
+
+::: {.cuanti-principles}
+## Criterios de trabajo
+
+::: {.cuanti-principles__grid}
+::: {}
+### Datos con contexto
+
+Los procedimientos estadísticos se presentan como respuestas a preguntas concretas. Usamos datos reales, relevantes para estudiantes de Psicología y preferentemente uruguayos, que permitan discutir qué se midió, en qué contexto y para qué.
+:::
+::: {}
+### Actividad antes que exposición
+
+Predecir, comparar y analizar obliga a tomar decisiones. La explicación formal aparece después, cuando ayuda a resolver un problema que ya está planteado.
+:::
+::: {}
+### Recursos abiertos
+
+Los materiales no dependen de una única forma de cursado. Se publican para que puedan reutilizarse, corregirse y adaptarse, tanto en otras ediciones de Cuanti como en cursos de grado, posgrado o educación media.
+:::
+:::
+:::
+
+::: {.cuanti-cta}
+## Acceso a los materiales
+
+El portal reúne el libro, las lecciones, el panel, los prácticos, los videos del curso y el acceso al Entorno Virtual de Aprendizaje.
+
+[Ir a Cuanti](https://cuanti.psico.edu.uy){.btn-main} [Ver el código en GitHub](https://github.com/almadana){.btn-ghost}
+:::
+
+::: {.cuanti-notes}
+La descripción del proyecto y de sus antecedentes se basa en los formularios presentados a la Comisión Sectorial de Enseñanza y en los recursos públicos disponibles. Las evaluaciones previstas para la etapa financiada en 2023 no se presentan aquí como resultados concluidos.
+:::
+
+:::

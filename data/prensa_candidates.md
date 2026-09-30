@@ -1,6 +1,6 @@
 # Candidatos de prensa
 
-_Actualizado: 2026-08-11T01:57:44Z · total 31 (pendientes 1, sí 19, no 11)_
+_Actualizado: 2026-09-22T02:18:42Z · total 30 (pendientes 0, sí 20, no 10)_
 
 Editá `vote` en `data/prensa_candidates.json` (`yes` / `no` / `null`),
 o corré `python scripts/search_prensa.py vote`.
@@ -8,15 +8,7 @@ Orden: **fecha descendente** (sin fecha al final).
 
 ## Pendientes
 
-### [?] 2021-06-01 · la diaria
-
-**El GACH podría seguir como grupo independiente... | la diaria | Uruguay**
-
-- id: `b8fd4ba50273`
-- url: https://ladiaria.com.uy/coronavirus/articulo/2021/6/el-gach-podria-seguir-como-grupo-independiente-uno-de-sus-integrantes-dijo-que-el-gobierno-embarro-un-poco-la-cancha/
-- extracto: Álvaro Cabana, doctor en biofísica e integrante del grupo asesor, dijo a la diaria que “se venía anunciando desde hace meses” la culminación del GACH.
-- score: 6 (nombre, uy)
-- vote: `None`
+_Ninguno._
 
 ## Aceptados (vote: yes)
 
@@ -57,6 +49,16 @@ Orden: **fecha descendente** (sin fecha al final).
 - id: `e5e21832df0a`
 - url: https://ladiaria.com.uy/politica/articulo/2021/6/para-filosofo-los-resultados-de-la-ciencia-estan-siendo-instrumentalizados-por-el-poder-politico/
 - extracto: Por ejemplo, Álvaro Cabana, doctor en biofísica e integrante del grupo asesor, dijo a la diaria que “se embarró un poco la cancha”, por “la actitud del gobierno de usar al GACH como respaldo...
+- score: 6 (nombre, uy)
+- vote: `yes`
+
+### [x] 2021-06-01 · la diaria
+
+**El GACH podría seguir como grupo independiente... | la diaria | Uruguay**
+
+- id: `b8fd4ba50273`
+- url: https://ladiaria.com.uy/coronavirus/articulo/2021/6/el-gach-podria-seguir-como-grupo-independiente-uno-de-sus-integrantes-dijo-que-el-gobierno-embarro-un-poco-la-cancha/
+- extracto: Álvaro Cabana, doctor en biofísica e integrante del grupo asesor, dijo a la diaria que “se venía anunciando desde hace meses” la culminación del GACH.
 - score: 6 (nombre, uy)
 - vote: `yes`
 
@@ -220,15 +222,6 @@ Orden: **fecha descendente** (sin fecha al final).
 - url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPNDlRMGdDQkQ4QlVLNWxuWUtaX3FHZm1ZRkh1S29HakZHS25kWEZJS3pwZ0ZCWlg0cVRyeGlzUkl5V2ZjTEVSbm9udHdOWU13bi1hX3N6YWVfbU1rME5teF9ONnZKZV9LZngtdEkzVmZjbzBFVU9IYmxWWkQwdEw4akpGVXI5bWVHRjFEMGU4UTFmc2wxV2lVQXV1OWZhUTBickFwS2VqbzVCNl9kWnVLZjR3?oc=5
 - extracto: Álvaro Cabana, investigador uruguayo: “Pasamos de ser de los mejores países que habían dominado la pandemia, a ser los peores” Diario Usach
 - score: 8 (nombre, nombre-en-título, kw:investigador)
-- vote: `no`
-
-### [ ] 2020-01-15 · Ejemplo
-
-**Nota de prueba**
-
-- id: `0644cb8d9c77`
-- url: https://example.com/nota-demo
-- score: 99 (manual)
 - vote: `no`
 
 ### [ ] 2019-02-14 · Facultad de Psicología
